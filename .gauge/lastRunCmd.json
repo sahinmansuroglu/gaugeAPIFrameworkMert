@@ -1,0 +1,6 @@
+[
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
+	"run",
+	"--simple-console",
+	"D:/KODLAMA_ILE_ILGILI/Java/MertAPIGaugeFramework/gaugeAPIFramework/specs/MobileBanking/apiExamples.spec:8"
+]

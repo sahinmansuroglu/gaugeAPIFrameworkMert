@@ -1,0 +1,752 @@
+[INFO ] 2022-11-27 16:36:43.591 Configuration:54 - Properties read finished.
+[INFO ] 2022-11-27 16:36:44.118 RequestUrlHelper:13 - https://petstore.swagger.io added as a base url
+[INFO ] 2022-11-27 16:36:44.186 HeaderHelper:39 - Host, petstore.swagger.io header added
+[INFO ] 2022-11-27 16:36:44.200 RequestUrlHelper:18 - /v2/pet added as a base path
+[INFO ] 2022-11-27 16:36:44.214 HeaderHelper:39 - content-type, application/json header added
+[INFO ] 2022-11-27 16:36:44.223 RequestBodyHelper:61 - Body added to request 
+ Body detail: C:\Users\Mert.Mansuroglu\Documents\GaugeApiProject\Api_Testing\target\test-classes\payloads\addPost.json
+[INFO ] 2022-11-27 16:36:44.239 FilterHelper:19 - Status added to log filter 200, 405, 415
+[ERROR] 2022-11-27 16:36:45.841 RestAssuredFilter:88 - -------------------------------
+[ERROR] 2022-11-27 16:36:45.841 RestAssuredFilter:89 - Methods:
+[ERROR] 2022-11-27 16:36:45.841 RestAssuredFilter:90 - POST
+[ERROR] 2022-11-27 16:36:45.841 RestAssuredFilter:92 - -------------------------------
+[ERROR] 2022-11-27 16:36:45.841 RestAssuredFilter:93 - URI:
+[ERROR] 2022-11-27 16:36:45.843 RestAssuredFilter:94 - https://petstore.swagger.io/v2/pet
+[ERROR] 2022-11-27 16:36:45.843 RestAssuredFilter:96 - -------------------------------
+[ERROR] 2022-11-27 16:36:45.843 RestAssuredFilter:97 - Request Headers:
+[ERROR] 2022-11-27 16:36:45.844 RestAssuredFilter:98 - Host=petstore.swagger.io
+Accept=*/*
+Content-Type=application/json; charset=UTF-8
+[ERROR] 2022-11-27 16:36:45.883 RestAssuredFilter:112 - -------------------------------
+[ERROR] 2022-11-27 16:36:45.884 RestAssuredFilter:113 - Request Body
+[ERROR] 2022-11-27 16:36:45.884 RestAssuredFilter:114 - {
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[ERROR] 2022-11-27 16:36:45.884 RestAssuredFilter:118 - -------------------------------
+[ERROR] 2022-11-27 16:36:45.884 RestAssuredFilter:119 - Response Status Code
+[ERROR] 2022-11-27 16:36:45.884 RestAssuredFilter:120 - 200
+[ERROR] 2022-11-27 16:36:45.884 RestAssuredFilter:122 - -------------------------------
+[ERROR] 2022-11-27 16:36:45.884 RestAssuredFilter:123 - Response Headers:
+[ERROR] 2022-11-27 16:36:45.885 RestAssuredFilter:124 - Date=Sun, 27 Nov 2022 13:36:27 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[ERROR] 2022-11-27 16:36:45.885 RestAssuredFilter:132 - -------------------------------
+[ERROR] 2022-11-27 16:36:45.891 RestAssuredFilter:133 - {
+  "id": 9223372036854249961,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 16:36:45.901 PostHelper:41 - Post request sent
+[INFO ] 2022-11-27 16:36:45.932 StatusCodeHelper:24 - Status code is 200
+[WARN ] 2022-11-27 16:36:47.467 SlackHelper:69 - Slack message couldn't send, please check your webhook is active?
+[INFO ] 2022-11-27 17:52:21.309 Configuration:63 - Properties read finished.
+[INFO ] 2022-11-27 17:52:21.936 RequestUrlHelper:18 - https://petstore.swagger.io added as a base url
+[INFO ] 2022-11-27 17:52:21.952 RequestUrlHelper:23 - /v2/pet added as a base path
+[INFO ] 2022-11-27 17:52:22.012 HeaderHelper:47 - content-type, application/json header added
+[INFO ] 2022-11-27 17:52:22.023 RequestBodyHelper:68 - Body added to request 
+ Body detail: C:\Users\Mert.Mansuroglu\Documents\gaugeAPIFramework\target\test-classes\payloads\addPost.json
+[INFO ] 2022-11-27 17:52:22.044 FilterHelper:24 - Status added to log filter 200, 405, 415
+[ERROR] 2022-11-27 17:52:53.805 RestAssuredFilter:113 - -------------------------------
+[ERROR] 2022-11-27 17:52:53.805 RestAssuredFilter:114 - Methods:
+[ERROR] 2022-11-27 17:52:53.805 RestAssuredFilter:115 - POST
+[ERROR] 2022-11-27 17:52:53.805 RestAssuredFilter:117 - -------------------------------
+[ERROR] 2022-11-27 17:52:53.805 RestAssuredFilter:118 - URI:
+[ERROR] 2022-11-27 17:52:53.807 RestAssuredFilter:119 - https://petstore.swagger.io/v2/pet
+[ERROR] 2022-11-27 17:52:53.807 RestAssuredFilter:121 - -------------------------------
+[ERROR] 2022-11-27 17:52:53.807 RestAssuredFilter:122 - Request Headers:
+[ERROR] 2022-11-27 17:52:53.808 RestAssuredFilter:123 - Accept=*/*
+Content-Type=application/json; charset=UTF-8
+[ERROR] 2022-11-27 17:52:53.848 RestAssuredFilter:137 - -------------------------------
+[ERROR] 2022-11-27 17:52:53.849 RestAssuredFilter:138 - Request Body
+[ERROR] 2022-11-27 17:52:53.849 RestAssuredFilter:139 - {
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[ERROR] 2022-11-27 17:52:53.849 RestAssuredFilter:143 - -------------------------------
+[ERROR] 2022-11-27 17:52:53.849 RestAssuredFilter:144 - Response Status Code
+[ERROR] 2022-11-27 17:52:53.850 RestAssuredFilter:145 - 200
+[ERROR] 2022-11-27 17:52:53.850 RestAssuredFilter:147 - -------------------------------
+[ERROR] 2022-11-27 17:52:53.850 RestAssuredFilter:148 - Response Headers:
+[ERROR] 2022-11-27 17:52:53.850 RestAssuredFilter:149 - Date=Sun, 27 Nov 2022 14:52:35 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[ERROR] 2022-11-27 17:52:53.853 RestAssuredFilter:157 - -------------------------------
+[ERROR] 2022-11-27 17:52:53.865 RestAssuredFilter:158 - {
+  "id": 9223372036854250965,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 17:52:53.884 PostHelper:44 - Post request sent
+[INFO ] 2022-11-27 17:52:53.936 StatusCodeHelper:27 - Status code is 200
+[WARN ] 2022-11-27 17:52:55.589 SlackHelper:90 - Slack message couldn't send, please check your webhook is active?
+[INFO ] 2022-11-27 22:38:50.317 Configuration:63 - Properties read finished.
+[INFO ] 2022-11-27 22:38:51.050 RequestBodyHelper:68 - Body added to request 
+ Body detail: C:\Users\Pc\Desktop\gaugeAPIFramework\gaugeAPIFramework\target\test-classes\payloads\petPost.json
+[INFO ] 2022-11-27 22:38:51.060 RequestUrlHelper:18 - https://petstore.swagger.io added as a base url
+[INFO ] 2022-11-27 22:38:51.145 HttpsHelper:15 - relaxedHTTPSValidation added
+[INFO ] 2022-11-27 22:38:51.155 RequestUrlHelper:23 - /v2/pet added as a base path
+[INFO ] 2022-11-27 22:38:51.210 HeaderHelper:36 - {Cache-Control=max-age=0, accept=application/json, Content-Type=application/json} headers added
+[INFO ] 2022-11-27 22:38:51.222 FilterHelper:24 - Status added to log filter 500, 400, 405
+[INFO ] 2022-11-27 22:38:53.431 RestAssuredFilter:167 - -------------------------------
+[INFO ] 2022-11-27 22:38:53.431 RestAssuredFilter:168 - Methods:
+[INFO ] 2022-11-27 22:38:53.431 RestAssuredFilter:169 - POST
+[INFO ] 2022-11-27 22:38:53.431 RestAssuredFilter:171 - -------------------------------
+[INFO ] 2022-11-27 22:38:53.432 RestAssuredFilter:172 - URI:
+[INFO ] 2022-11-27 22:38:53.435 RestAssuredFilter:173 - https://petstore.swagger.io/v2/pet
+[INFO ] 2022-11-27 22:38:53.436 RestAssuredFilter:175 - -------------------------------
+[INFO ] 2022-11-27 22:38:53.436 RestAssuredFilter:176 - Request Headers:
+[INFO ] 2022-11-27 22:38:53.439 RestAssuredFilter:177 - Cache-Control=max-age=0
+accept=application/json
+Content-Type=application/json; charset=UTF-8
+[INFO ] 2022-11-27 22:38:53.495 RestAssuredFilter:192 - -------------------------------
+[INFO ] 2022-11-27 22:38:53.496 RestAssuredFilter:193 - Request Body
+[INFO ] 2022-11-27 22:38:53.496 RestAssuredFilter:194 - {
+  "id": 2020202112,
+  "category": {
+    "id": 0,
+    "name": "Dog"
+  },
+  "name": "karabas",
+  "photoUrls": [
+    "https://www.karabas.com/karabas.jpg"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "kuçukuçu"
+    },
+    {
+      "id": 3,
+      "name": "kuş"
+    },
+    {
+      "id": 3,
+      "name": "kadir"
+    },
+    {
+      "id": 3,
+      "name": "test"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 22:38:53.497 RestAssuredFilter:198 - -------------------------------
+[INFO ] 2022-11-27 22:38:53.497 RestAssuredFilter:199 - Response Status Code
+[INFO ] 2022-11-27 22:38:53.498 RestAssuredFilter:200 - 200
+[INFO ] 2022-11-27 22:38:53.499 RestAssuredFilter:202 - -------------------------------
+[INFO ] 2022-11-27 22:38:53.499 RestAssuredFilter:203 - Response Headers:
+[INFO ] 2022-11-27 22:38:53.500 RestAssuredFilter:204 - Date=Sun, 27 Nov 2022 19:38:53 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2022-11-27 22:38:53.502 RestAssuredFilter:212 - -------------------------------
+[INFO ] 2022-11-27 22:38:53.503 RestAssuredFilter:213 - Response Body:
+[INFO ] 2022-11-27 22:38:53.518 RestAssuredFilter:214 - {
+  "id": 2020202112,
+  "category": {
+    "id": 0,
+    "name": "Dog"
+  },
+  "name": "karabas",
+  "photoUrls": [
+    "https://www.karabas.com/karabas.jpg"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "kuçukuçu"
+    },
+    {
+      "id": 3,
+      "name": "kuş"
+    },
+    {
+      "id": 3,
+      "name": "kadir"
+    },
+    {
+      "id": 3,
+      "name": "test"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 22:38:53.540 PostHelper:44 - Post request sent
+[INFO ] 2022-11-27 22:38:53.579 StatusCodeHelper:27 - Status code is 200
+[INFO ] 2022-11-27 22:38:53.601 RequestUrlHelper:18 - https://petstore.swagger.io added as a base url
+[INFO ] 2022-11-27 22:38:53.612 HttpsHelper:15 - relaxedHTTPSValidation added
+[INFO ] 2022-11-27 22:38:53.621 RequestBodyHelper:68 - Body added to request 
+ Body detail: C:\Users\Pc\Desktop\gaugeAPIFramework\gaugeAPIFramework\target\test-classes\payloads\petPost.json
+[INFO ] 2022-11-27 22:38:53.631 RequestUrlHelper:23 - /v2/pet added as a base path
+[INFO ] 2022-11-27 22:38:53.642 HeaderHelper:36 - {Cache-Control=max-age=0, accept=application/json, Content-Type=application/json} headers added
+[INFO ] 2022-11-27 22:38:53.652 FilterHelper:24 - Status added to log filter 500, 400, 405
+[INFO ] 2022-11-27 22:38:54.495 RestAssuredFilter:167 - -------------------------------
+[INFO ] 2022-11-27 22:38:54.495 RestAssuredFilter:168 - Methods:
+[INFO ] 2022-11-27 22:38:54.496 RestAssuredFilter:169 - POST
+[INFO ] 2022-11-27 22:38:54.497 RestAssuredFilter:171 - -------------------------------
+[INFO ] 2022-11-27 22:38:54.498 RestAssuredFilter:172 - URI:
+[INFO ] 2022-11-27 22:38:54.502 RestAssuredFilter:173 - https://petstore.swagger.io/v2/pet
+[INFO ] 2022-11-27 22:38:54.503 RestAssuredFilter:175 - -------------------------------
+[INFO ] 2022-11-27 22:38:54.504 RestAssuredFilter:176 - Request Headers:
+[INFO ] 2022-11-27 22:38:54.507 RestAssuredFilter:177 - Cache-Control=max-age=0
+Cache-Control=max-age=0
+accept=application/json
+Content-Type=application/json; charset=UTF-8
+[INFO ] 2022-11-27 22:38:54.511 RestAssuredFilter:192 - -------------------------------
+[INFO ] 2022-11-27 22:38:54.512 RestAssuredFilter:193 - Request Body
+[INFO ] 2022-11-27 22:38:54.512 RestAssuredFilter:194 - {
+  "id": 2020202112,
+  "category": {
+    "id": 0,
+    "name": "Dog"
+  },
+  "name": "karabas",
+  "photoUrls": [
+    "https://www.karabas.com/karabas.jpg"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "kuçukuçu"
+    },
+    {
+      "id": 3,
+      "name": "kuş"
+    },
+    {
+      "id": 3,
+      "name": "kadir"
+    },
+    {
+      "id": 3,
+      "name": "test"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 22:38:54.512 RestAssuredFilter:198 - -------------------------------
+[INFO ] 2022-11-27 22:38:54.513 RestAssuredFilter:199 - Response Status Code
+[INFO ] 2022-11-27 22:38:54.513 RestAssuredFilter:200 - 200
+[INFO ] 2022-11-27 22:38:54.513 RestAssuredFilter:202 - -------------------------------
+[INFO ] 2022-11-27 22:38:54.513 RestAssuredFilter:203 - Response Headers:
+[INFO ] 2022-11-27 22:38:54.514 RestAssuredFilter:204 - Date=Sun, 27 Nov 2022 19:38:54 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2022-11-27 22:38:54.514 RestAssuredFilter:212 - -------------------------------
+[INFO ] 2022-11-27 22:38:54.514 RestAssuredFilter:213 - Response Body:
+[INFO ] 2022-11-27 22:38:54.516 RestAssuredFilter:214 - {
+  "id": 2020202112,
+  "category": {
+    "id": 0,
+    "name": "Dog"
+  },
+  "name": "karabas",
+  "photoUrls": [
+    "https://www.karabas.com/karabas.jpg"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "kuçukuçu"
+    },
+    {
+      "id": 3,
+      "name": "kuş"
+    },
+    {
+      "id": 3,
+      "name": "kadir"
+    },
+    {
+      "id": 3,
+      "name": "test"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 22:38:54.517 PostHelper:44 - Post request sent
+[INFO ] 2022-11-27 22:38:55.097 ResponseBodyImp:93 - "tags" is stored with "tags" during scenario
+[INFO ] 2022-11-27 22:38:55.119 JsonListFilterHelper:20 - 2 stored in scenario store
+[INFO ] 2022-11-27 22:38:55.131 ResponseTimeHelper:27 - Response time is 822 milliseconds
+[INFO ] 2022-11-27 22:38:55.133 ResponseTimeImp:22 - Response time is less then 50000 milliseconds
+[INFO ] 2022-11-27 22:38:55.274 SleepHelper:28 - Test paused 120 millisecond
+[INFO ] 2022-11-27 22:38:55.284 StatusCodeHelper:27 - Status code is 200
+[INFO ] 2022-11-27 22:38:55.314 RequestBodyHelper:68 - Body added to request 
+ Body detail: C:\Users\Pc\Desktop\gaugeAPIFramework\gaugeAPIFramework\target\test-classes\payloads\petPost.json
+[INFO ] 2022-11-27 22:38:55.324 RequestUrlHelper:18 - https://petstore.swagger.io added as a base url
+[INFO ] 2022-11-27 22:38:55.332 HttpsHelper:15 - relaxedHTTPSValidation added
+[INFO ] 2022-11-27 22:38:55.341 RequestUrlHelper:23 - /v2/pet added as a base path
+[INFO ] 2022-11-27 22:38:55.350 HeaderHelper:36 - {Cache-Control=max-age=0, accept=application/json, Content-Type=application/json} headers added
+[INFO ] 2022-11-27 22:38:55.359 FilterHelper:24 - Status added to log filter 500, 400, 405
+[INFO ] 2022-11-27 22:39:53.903 RestAssuredFilter:167 - -------------------------------
+[INFO ] 2022-11-27 22:39:53.904 RestAssuredFilter:168 - Methods:
+[INFO ] 2022-11-27 22:39:53.904 RestAssuredFilter:169 - POST
+[INFO ] 2022-11-27 22:39:53.905 RestAssuredFilter:171 - -------------------------------
+[INFO ] 2022-11-27 22:39:53.905 RestAssuredFilter:172 - URI:
+[INFO ] 2022-11-27 22:39:53.906 RestAssuredFilter:173 - https://petstore.swagger.io/v2/pet
+[INFO ] 2022-11-27 22:39:53.907 RestAssuredFilter:175 - -------------------------------
+[INFO ] 2022-11-27 22:39:53.907 RestAssuredFilter:176 - Request Headers:
+[INFO ] 2022-11-27 22:39:53.908 RestAssuredFilter:177 - Cache-Control=max-age=0
+Cache-Control=max-age=0
+Cache-Control=max-age=0
+accept=application/json
+Content-Type=application/json; charset=UTF-8
+[INFO ] 2022-11-27 22:39:53.910 RestAssuredFilter:192 - -------------------------------
+[INFO ] 2022-11-27 22:39:53.910 RestAssuredFilter:193 - Request Body
+[INFO ] 2022-11-27 22:39:53.910 RestAssuredFilter:194 - {
+  "id": 2020202112,
+  "category": {
+    "id": 0,
+    "name": "Dog"
+  },
+  "name": "karabas",
+  "photoUrls": [
+    "https://www.karabas.com/karabas.jpg"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "kuçukuçu"
+    },
+    {
+      "id": 3,
+      "name": "kuş"
+    },
+    {
+      "id": 3,
+      "name": "kadir"
+    },
+    {
+      "id": 3,
+      "name": "test"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 22:39:53.910 RestAssuredFilter:198 - -------------------------------
+[INFO ] 2022-11-27 22:39:53.910 RestAssuredFilter:199 - Response Status Code
+[INFO ] 2022-11-27 22:39:53.911 RestAssuredFilter:200 - 200
+[INFO ] 2022-11-27 22:39:53.911 RestAssuredFilter:202 - -------------------------------
+[INFO ] 2022-11-27 22:39:53.911 RestAssuredFilter:203 - Response Headers:
+[INFO ] 2022-11-27 22:39:53.912 RestAssuredFilter:204 - Date=Sun, 27 Nov 2022 19:39:54 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2022-11-27 22:39:53.912 RestAssuredFilter:212 - -------------------------------
+[INFO ] 2022-11-27 22:39:53.912 RestAssuredFilter:213 - Response Body:
+[INFO ] 2022-11-27 22:39:53.913 RestAssuredFilter:214 - {
+  "id": 2020202112,
+  "category": {
+    "id": 0,
+    "name": "Dog"
+  },
+  "name": "karabas",
+  "photoUrls": [
+    "https://www.karabas.com/karabas.jpg"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "kuçukuçu"
+    },
+    {
+      "id": 3,
+      "name": "kuş"
+    },
+    {
+      "id": 3,
+      "name": "kadir"
+    },
+    {
+      "id": 3,
+      "name": "test"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 22:39:53.914 PostHelper:44 - Post request sent
+[INFO ] 2022-11-27 22:39:53.959 ResponseBodyImp:93 - "tags" is stored with "tags" during scenario
+[INFO ] 2022-11-27 22:39:53.976 JsonListFilterHelper:20 - 2 stored in scenario store
+[INFO ] 2022-11-27 22:39:53.984 ResponseTimeHelper:27 - Response time is 58533 milliseconds
+[ERROR] 2022-11-27 22:39:53.986 ResponseTimeImp:24 - Response time isn't less then 50000 milliseconds
+[INFO ] 2022-11-27 22:39:54.371 VariableImp:39 - key1, Tast
+bRegex variable stored
+[INFO ] 2022-11-27 22:39:54.379 VariableImp:44 - FirstTest, First Test First Repalce variable stored
+[INFO ] 2022-11-27 22:39:54.386 VariableImp:49 - Un RegEx, //[] test variable stored
+[INFO ] 2022-11-27 22:39:54.393 StringImp:32 - "Tast  Regex" is stored on Scenario store
+[INFO ] 2022-11-27 22:39:54.400 StringImp:32 - "Test" is stored on Scenario store
+[INFO ] 2022-11-27 22:39:54.408 StringImp:40 - "Test First Repalce" is stored on Scenario store
+[INFO ] 2022-11-27 22:39:54.416 StringImp:32 - "on ikitest" is stored on Scenario store
+[INFO ] 2022-11-27 22:39:54.424 StringImp:82 - "Test First Repalce" is stored on Scenario store
+[INFO ] 2022-11-27 22:39:54.431 StringImp:106 - "Test First Repalce" is stored on Scenario store
+[INFO ] 2022-11-27 22:39:54.438 StringImp:114 - "Test First Repalce" is stored on Scenario store
+[INFO ] 2022-11-27 22:39:54.446 StringImp:122 - "Test First Repalce" is stored on Scenario store
+[INFO ] 2022-11-27 22:39:54.474 RequestUrlHelper:18 - https://petstore.swagger.io added as a base url
+[INFO ] 2022-11-27 22:39:54.482 RequestUrlHelper:23 - /v2/pet added as a base path
+[INFO ] 2022-11-27 22:39:54.491 HeaderHelper:47 - content-type, application/json header added
+[INFO ] 2022-11-27 22:39:54.499 RequestBodyHelper:68 - Body added to request 
+ Body detail: C:\Users\Pc\Desktop\gaugeAPIFramework\gaugeAPIFramework\target\test-classes\payloads\addPost.json
+[INFO ] 2022-11-27 22:39:54.508 FilterHelper:24 - Status added to log filter 200, 405, 415
+[INFO ] 2022-11-27 22:39:55.324 RestAssuredFilter:167 - -------------------------------
+[INFO ] 2022-11-27 22:39:55.324 RestAssuredFilter:168 - Methods:
+[INFO ] 2022-11-27 22:39:55.324 RestAssuredFilter:169 - POST
+[INFO ] 2022-11-27 22:39:55.324 RestAssuredFilter:171 - -------------------------------
+[INFO ] 2022-11-27 22:39:55.324 RestAssuredFilter:172 - URI:
+[INFO ] 2022-11-27 22:39:55.325 RestAssuredFilter:173 - https://petstore.swagger.io/v2/pet
+[INFO ] 2022-11-27 22:39:55.325 RestAssuredFilter:175 - -------------------------------
+[INFO ] 2022-11-27 22:39:55.325 RestAssuredFilter:176 - Request Headers:
+[INFO ] 2022-11-27 22:39:55.326 RestAssuredFilter:177 - Cache-Control=max-age=0
+Cache-Control=max-age=0
+Cache-Control=max-age=0
+accept=application/json
+Content-Type=application/json; charset=UTF-8
+[INFO ] 2022-11-27 22:39:55.328 RestAssuredFilter:192 - -------------------------------
+[INFO ] 2022-11-27 22:39:55.329 RestAssuredFilter:193 - Request Body
+[INFO ] 2022-11-27 22:39:55.329 RestAssuredFilter:194 - {
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 22:39:55.329 RestAssuredFilter:198 - -------------------------------
+[INFO ] 2022-11-27 22:39:55.329 RestAssuredFilter:199 - Response Status Code
+[INFO ] 2022-11-27 22:39:55.329 RestAssuredFilter:200 - 200
+[INFO ] 2022-11-27 22:39:55.330 RestAssuredFilter:202 - -------------------------------
+[INFO ] 2022-11-27 22:39:55.330 RestAssuredFilter:203 - Response Headers:
+[INFO ] 2022-11-27 22:39:55.331 RestAssuredFilter:204 - Date=Sun, 27 Nov 2022 19:39:55 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[INFO ] 2022-11-27 22:39:55.331 RestAssuredFilter:212 - -------------------------------
+[INFO ] 2022-11-27 22:39:55.331 RestAssuredFilter:213 - Response Body:
+[INFO ] 2022-11-27 22:39:55.332 RestAssuredFilter:214 - {
+  "id": 9223372036854289065,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 22:39:55.333 PostHelper:44 - Post request sent
+[INFO ] 2022-11-27 22:39:55.342 StatusCodeHelper:27 - Status code is 200
+[WARN ] 2022-11-27 22:39:55.881 SlackHelper:90 - Slack message couldn't send, please check your webhook is active?
+[INFO ] 2022-11-27 22:43:58.390 Configuration:63 - Properties read finished.
+[INFO ] 2022-11-27 22:43:59.170 RequestUrlHelper:18 - https://petstore.swagger.io added as a base url
+[INFO ] 2022-11-27 22:43:59.181 RequestUrlHelper:23 - /v2/pet added as a base path
+[INFO ] 2022-11-27 22:43:59.277 HeaderHelper:47 - content-type, application/json header added
+[INFO ] 2022-11-27 22:43:59.285 RequestBodyHelper:68 - Body added to request 
+ Body detail: C:\Users\Pc\Desktop\gaugeAPIFramework\gaugeAPIFramework\target\test-classes\payloads\addPost.json
+[INFO ] 2022-11-27 22:43:59.305 FilterHelper:24 - Status added to log filter 200, 405, 415
+[ERROR] 2022-11-27 22:44:01.122 RestAssuredFilter:113 - -------------------------------
+[ERROR] 2022-11-27 22:44:01.123 RestAssuredFilter:114 - Methods:
+[ERROR] 2022-11-27 22:44:01.123 RestAssuredFilter:115 - POST
+[ERROR] 2022-11-27 22:44:01.124 RestAssuredFilter:117 - -------------------------------
+[ERROR] 2022-11-27 22:44:01.124 RestAssuredFilter:118 - URI:
+[ERROR] 2022-11-27 22:44:01.127 RestAssuredFilter:119 - https://petstore.swagger.io/v2/pet
+[ERROR] 2022-11-27 22:44:01.128 RestAssuredFilter:121 - -------------------------------
+[ERROR] 2022-11-27 22:44:01.128 RestAssuredFilter:122 - Request Headers:
+[ERROR] 2022-11-27 22:44:01.132 RestAssuredFilter:123 - Accept=*/*
+Content-Type=application/json; charset=UTF-8
+[ERROR] 2022-11-27 22:44:01.192 RestAssuredFilter:137 - -------------------------------
+[ERROR] 2022-11-27 22:44:01.192 RestAssuredFilter:138 - Request Body
+[ERROR] 2022-11-27 22:44:01.192 RestAssuredFilter:139 - {
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[ERROR] 2022-11-27 22:44:01.193 RestAssuredFilter:143 - -------------------------------
+[ERROR] 2022-11-27 22:44:01.193 RestAssuredFilter:144 - Response Status Code
+[ERROR] 2022-11-27 22:44:01.193 RestAssuredFilter:145 - 200
+[ERROR] 2022-11-27 22:44:01.194 RestAssuredFilter:147 - -------------------------------
+[ERROR] 2022-11-27 22:44:01.194 RestAssuredFilter:148 - Response Headers:
+[ERROR] 2022-11-27 22:44:01.194 RestAssuredFilter:149 - Date=Sun, 27 Nov 2022 19:44:01 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[ERROR] 2022-11-27 22:44:01.197 RestAssuredFilter:157 - -------------------------------
+[ERROR] 2022-11-27 22:44:01.206 RestAssuredFilter:158 - {
+  "id": 9223372036854289118,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 22:44:01.223 PostHelper:44 - Post request sent
+[INFO ] 2022-11-27 22:44:01.256 StatusCodeHelper:27 - Status code is 200
+[WARN ] 2022-11-27 22:44:02.409 SlackHelper:90 - Slack message couldn't send, please check your webhook is active?
+[INFO ] 2022-11-27 23:17:07.859 Configuration:63 - Properties read finished.
+[INFO ] 2022-11-27 23:17:08.700 RequestUrlHelper:18 - https://petstore.swagger.io added as a base url
+[INFO ] 2022-11-27 23:17:08.714 RequestUrlHelper:23 - /v2/pet added as a base path
+[INFO ] 2022-11-27 23:17:08.811 HeaderHelper:47 - content-type, application/json header added
+[INFO ] 2022-11-27 23:17:08.823 RequestBodyHelper:68 - Body added to request 
+ Body detail: C:\Users\Pc\Desktop\gaugeAPIFramework\gaugeAPIFramework\target\test-classes\payloads\addPost.json
+[INFO ] 2022-11-27 23:17:08.841 FilterHelper:24 - Status added to log filter 200, 405, 415
+[ERROR] 2022-11-27 23:17:10.727 RestAssuredFilter:113 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.727 RestAssuredFilter:114 - Methods:
+[ERROR] 2022-11-27 23:17:10.727 RestAssuredFilter:115 - POST
+[ERROR] 2022-11-27 23:17:10.728 RestAssuredFilter:117 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.728 RestAssuredFilter:118 - URI:
+[ERROR] 2022-11-27 23:17:10.730 RestAssuredFilter:119 - https://petstore.swagger.io/v2/pet
+[ERROR] 2022-11-27 23:17:10.731 RestAssuredFilter:121 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.731 RestAssuredFilter:122 - Request Headers:
+[ERROR] 2022-11-27 23:17:10.733 RestAssuredFilter:123 - Accept=*/*
+Content-Type=application/json; charset=UTF-8
+[ERROR] 2022-11-27 23:17:10.779 RestAssuredFilter:137 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.779 RestAssuredFilter:138 - Request Body
+[ERROR] 2022-11-27 23:17:10.780 RestAssuredFilter:139 - {
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[ERROR] 2022-11-27 23:17:10.780 RestAssuredFilter:143 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.780 RestAssuredFilter:144 - Response Status Code
+[ERROR] 2022-11-27 23:17:10.781 RestAssuredFilter:145 - 200
+[ERROR] 2022-11-27 23:17:10.781 RestAssuredFilter:147 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.782 RestAssuredFilter:148 - Response Headers:
+[ERROR] 2022-11-27 23:17:10.782 RestAssuredFilter:149 - Date=Sun, 27 Nov 2022 20:17:10 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[ERROR] 2022-11-27 23:17:10.784 RestAssuredFilter:157 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.792 RestAssuredFilter:158 - {
+  "id": 9223372036854289572,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 23:17:10.805 PostHelper:44 - Post request sent
+[INFO ] 2022-11-27 23:17:10.835 StatusCodeHelper:27 - Status code is 200
+[WARN ] 2022-11-27 23:17:12.014 SlackHelper:90 - Slack message couldn't send, please check your webhook is active?
+[INFO ] 2022-11-27 23:40:07.407 Configuration:63 - Properties read finished.
+[INFO ] 2022-11-27 23:40:08.211 RequestUrlHelper:18 - https://petstore.swagger.io added as a base url
+[INFO ] 2022-11-27 23:40:08.225 RequestUrlHelper:23 - /v2/pet added as a base path
+[INFO ] 2022-11-27 23:40:08.303 HeaderHelper:47 - content-type, application/json header added
+[INFO ] 2022-11-27 23:40:08.314 RequestBodyHelper:68 - Body added to request 
+ Body detail: D:\KODLAMA_ILE_ILGILI\Java\MertAPIGaugeFramework\gaugeAPIFramework\target\test-classes\payloads\addPost.json
+[INFO ] 2022-11-27 23:40:08.330 FilterHelper:24 - Status added to log filter 200, 405, 415
+[ERROR] 2022-11-27 23:40:38.277 RestAssuredFilter:113 - -------------------------------
+[ERROR] 2022-11-27 23:40:38.278 RestAssuredFilter:114 - Methods:
+[ERROR] 2022-11-27 23:40:38.278 RestAssuredFilter:115 - POST
+[ERROR] 2022-11-27 23:40:38.278 RestAssuredFilter:117 - -------------------------------
+[ERROR] 2022-11-27 23:40:38.278 RestAssuredFilter:118 - URI:
+[ERROR] 2022-11-27 23:40:38.281 RestAssuredFilter:119 - https://petstore.swagger.io/v2/pet
+[ERROR] 2022-11-27 23:40:38.281 RestAssuredFilter:121 - -------------------------------
+[ERROR] 2022-11-27 23:40:38.281 RestAssuredFilter:122 - Request Headers:
+[ERROR] 2022-11-27 23:40:38.282 RestAssuredFilter:123 - Accept=*/*
+Content-Type=application/json; charset=UTF-8
+[ERROR] 2022-11-27 23:40:38.325 RestAssuredFilter:137 - -------------------------------
+[ERROR] 2022-11-27 23:40:38.325 RestAssuredFilter:138 - Request Body
+[ERROR] 2022-11-27 23:40:38.325 RestAssuredFilter:139 - {
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[ERROR] 2022-11-27 23:40:38.325 RestAssuredFilter:143 - -------------------------------
+[ERROR] 2022-11-27 23:40:38.326 RestAssuredFilter:144 - Response Status Code
+[ERROR] 2022-11-27 23:40:38.326 RestAssuredFilter:145 - 200
+[ERROR] 2022-11-27 23:40:38.326 RestAssuredFilter:147 - -------------------------------
+[ERROR] 2022-11-27 23:40:38.326 RestAssuredFilter:148 - Response Headers:
+[ERROR] 2022-11-27 23:40:38.326 RestAssuredFilter:149 - Date=Sun, 27 Nov 2022 20:40:38 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[ERROR] 2022-11-27 23:40:38.328 RestAssuredFilter:157 - -------------------------------
+[ERROR] 2022-11-27 23:40:38.338 RestAssuredFilter:158 - {
+  "id": 9223372036854289898,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 23:40:38.350 PostHelper:44 - Post request sent
+[INFO ] 2022-11-27 23:40:38.386 StatusCodeHelper:27 - Status code is 200
+[WARN ] 2022-11-27 23:40:39.532 SlackHelper:90 - Slack message couldn't send, please check your webhook is active?

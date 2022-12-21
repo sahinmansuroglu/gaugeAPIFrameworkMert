@@ -1,0 +1,8 @@
+<testsuites>
+	<testsuite id="1" tests="1" failures="0" package="D:\KODLAMA_ILE_ILGILI\Java\MertAPIGaugeFramework\gaugeAPIFramework\specs\MobileBanking\apiExamples.spec" time="2.702" timestamp="2022-12-21T17:27:50" name="Specification Heading" errors="0" hostname="DESKTOP-QLPIVJU">
+		<properties></properties>
+		<testcase classname="Specification Heading" name="Add a new pet" time="2.702"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>

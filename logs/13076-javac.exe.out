@@ -1,0 +1,360 @@
+src\main\java\base\TestBase.java:9: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.TestInstance;
+                            ^
+src\main\java\base\TestBase.java:11: error: cannot find symbol
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+ ^
+  symbol: class TestInstance
+src\main\java\helper\SlackHelper.java:4: error: package com.slack.api does not exist
+import com.slack.api.Slack;
+                    ^
+src\main\java\helper\SlackHelper.java:5: error: package com.slack.api.methods does not exist
+import com.slack.api.methods.SlackApiException;
+                            ^
+src\main\java\helper\SlackHelper.java:6: error: package com.slack.api.model does not exist
+import com.slack.api.model.Attachment;
+                          ^
+src\main\java\helper\SlackHelper.java:7: error: package com.slack.api.model does not exist
+import com.slack.api.model.Conversation;
+                          ^
+src\main\java\helper\SlackHelper.java:11: error: package io.restassured does not exist
+import io.restassured.RestAssured;
+                     ^
+src\main\java\helper\SlackHelper.java:12: error: package io.restassured.response does not exist
+import io.restassured.response.Response;
+                              ^
+src\main\java\helper\SlackHelper.java:13: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\SlackHelper.java:14: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\SlackHelper.java:44: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(SlackHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class SlackHelper
+src\main\java\helper\SlackHelper.java:212: error: cannot find symbol
+    private List<Attachment> createAttachments() {
+                 ^
+  symbol:   class Attachment
+  location: class SlackHelper
+src\main\java\configuration\Configuration.java:4: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\configuration\Configuration.java:5: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\configuration\Configuration.java:24: error: cannot find symbol
+    protected static final Logger log = LogManager.getLogger(Configuration.class);
+                           ^
+  symbol:   class Logger
+  location: class Configuration
+src\main\java\filter\RestAssuredFilter.java:3: error: package io.restassured.filter does not exist
+import io.restassured.filter.Filter;
+                            ^
+src\main\java\filter\RestAssuredFilter.java:4: error: package io.restassured.filter does not exist
+import io.restassured.filter.FilterContext;
+                            ^
+src\main\java\filter\RestAssuredFilter.java:5: error: package io.restassured.response does not exist
+import io.restassured.response.Response;
+                              ^
+src\main\java\filter\RestAssuredFilter.java:6: error: package io.restassured.specification does not exist
+import io.restassured.specification.FilterableRequestSpecification;
+                                   ^
+src\main\java\filter\RestAssuredFilter.java:7: error: package io.restassured.specification does not exist
+import io.restassured.specification.FilterableResponseSpecification;
+                                   ^
+src\main\java\filter\RestAssuredFilter.java:8: error: package io.restassured.specification does not exist
+import io.restassured.specification.MultiPartSpecification;
+                                   ^
+src\main\java\filter\RestAssuredFilter.java:10: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\filter\RestAssuredFilter.java:11: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\filter\RestAssuredFilter.java:21: error: cannot find symbol
+public class RestAssuredFilter implements Filter {
+                                          ^
+  symbol: class Filter
+src\main\java\filter\RestAssuredFilter.java:23: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(RestAssuredFilter.class);
+                  ^
+  symbol:   class Logger
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:56: error: cannot find symbol
+    public Response filter(FilterableRequestSpecification reqSpec,
+                           ^
+  symbol:   class FilterableRequestSpecification
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:57: error: cannot find symbol
+                           FilterableResponseSpecification resSpec,
+                           ^
+  symbol:   class FilterableResponseSpecification
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:58: error: cannot find symbol
+                           FilterContext filterContext) {
+                           ^
+  symbol:   class FilterContext
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:56: error: cannot find symbol
+    public Response filter(FilterableRequestSpecification reqSpec,
+           ^
+  symbol:   class Response
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:81: error: cannot find symbol
+    private String getRequestBody(FilterableRequestSpecification reqSpec) {
+                                  ^
+  symbol:   class FilterableRequestSpecification
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:111: error: cannot find symbol
+    private void logErrorStatus(Response response, FilterableRequestSpecification reqSpec) {
+                                ^
+  symbol:   class Response
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:111: error: cannot find symbol
+    private void logErrorStatus(Response response, FilterableRequestSpecification reqSpec) {
+                                                   ^
+  symbol:   class FilterableRequestSpecification
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:163: error: cannot find symbol
+    private void logInfoStatus(Response response, FilterableRequestSpecification reqSpec) {
+                               ^
+  symbol:   class Response
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:163: error: cannot find symbol
+    private void logInfoStatus(Response response, FilterableRequestSpecification reqSpec) {
+                                                  ^
+  symbol:   class FilterableRequestSpecification
+  location: class RestAssuredFilter
+src\main\java\filter\RestAssuredFilter.java:225: error: cannot find symbol
+    private void logMapMultiPartSpecification(List<MultiPartSpecification> reqSpec, boolean isInfo) {
+                                                   ^
+  symbol:   class MultiPartSpecification
+  location: class RestAssuredFilter
+src\main\java\helper\ApiHelper.java:4: error: package io.restassured does not exist
+import io.restassured.RestAssured;
+                     ^
+src\main\java\helper\ApiHelper.java:5: error: package io.restassured.specification does not exist
+import io.restassured.specification.RequestSpecification;
+                                   ^
+src\main\java\helper\ApiHelper.java:6: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\ApiHelper.java:7: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\ApiHelper.java:20: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(ApiHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class ApiHelper
+src\main\java\helper\ApiHelper.java:38: error: cannot find symbol
+    public RequestSpecification getRequestSpecification() {
+           ^
+  symbol:   class RequestSpecification
+  location: class ApiHelper
+src\main\java\helper\AuthHelper.java:4: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\AuthHelper.java:5: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\AuthHelper.java:10: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(AuthHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class AuthHelper
+src\main\java\helper\DocumentHelper.java:5: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\DocumentHelper.java:6: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\DocumentHelper.java:16: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(DocumentHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class DocumentHelper
+src\main\java\helper\FileHelper.java:4: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\FileHelper.java:5: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\FileHelper.java:17: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(FileHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class FileHelper
+src\main\java\helper\FilterHelper.java:4: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\FilterHelper.java:5: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\FilterHelper.java:12: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(FilterHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class FilterHelper
+src\main\java\helper\FormParamsHelper.java:3: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\FormParamsHelper.java:4: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\FormParamsHelper.java:10: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(FormParamsHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class FormParamsHelper
+src\main\java\helper\HeaderHelper.java:4: error: package io.restassured.config does not exist
+import io.restassured.config.RestAssuredConfig;
+                            ^
+src\main\java\helper\HeaderHelper.java:5: error: package io.restassured.http does not exist
+import io.restassured.http.ContentType;
+                          ^
+src\main\java\helper\HeaderHelper.java:6: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\HeaderHelper.java:7: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\HeaderHelper.java:11: error: package io.restassured.config does not exist
+import static io.restassured.config.MultiPartConfig.multiPartConfig;
+                                   ^
+src\main\java\helper\HeaderHelper.java:11: error: static import only from classes and interfaces
+import static io.restassured.config.MultiPartConfig.multiPartConfig;
+^
+src\main\java\helper\HeaderHelper.java:15: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(HeaderHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class HeaderHelper
+src\main\java\helper\HttpsHelper.java:3: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\HttpsHelper.java:4: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\HttpsHelper.java:8: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(HttpsHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class HttpsHelper
+src\main\java\helper\JsonHelper.java:4: error: package com.jayway.jsonpath does not exist
+import com.jayway.jsonpath.Configuration;
+                          ^
+src\main\java\helper\JsonHelper.java:5: error: package com.jayway.jsonpath does not exist
+import com.jayway.jsonpath.DocumentContext;
+                          ^
+src\main\java\helper\JsonHelper.java:6: error: package com.jayway.jsonpath does not exist
+import com.jayway.jsonpath.PathNotFoundException;
+                          ^
+src\main\java\helper\JsonHelper.java:7: error: package com.jayway.jsonpath.spi.json does not exist
+import com.jayway.jsonpath.spi.json.JacksonJsonNodeJsonProvider;
+                                   ^
+src\main\java\helper\JsonHelper.java:8: error: package com.jayway.jsonpath.spi.mapper does not exist
+import com.jayway.jsonpath.spi.mapper.JacksonMappingProvider;
+                                     ^
+src\main\java\helper\JsonHelper.java:9: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\JsonHelper.java:10: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\JsonHelper.java:16: error: package com.jayway.jsonpath does not exist
+import static com.jayway.jsonpath.JsonPath.read;
+                                 ^
+src\main\java\helper\JsonHelper.java:16: error: static import only from classes and interfaces
+import static com.jayway.jsonpath.JsonPath.read;
+^
+src\main\java\helper\JsonHelper.java:17: error: package com.jayway.jsonpath does not exist
+import static com.jayway.jsonpath.JsonPath.using;
+                                 ^
+src\main\java\helper\JsonHelper.java:17: error: static import only from classes and interfaces
+import static com.jayway.jsonpath.JsonPath.using;
+^
+src\main\java\helper\JsonHelper.java:22: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(JsonHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class JsonHelper
+src\main\java\helper\JsonHelper.java:33: error: cannot find symbol
+    protected DocumentContext getJsonDocumentContext(String json) {
+              ^
+  symbol:   class DocumentContext
+  location: class JsonHelper
+src\main\java\helper\JsonSchemaHelper.java:3: error: package com.github.fge.jsonschema does not exist
+import com.github.fge.jsonschema.SchemaVersion;
+                                ^
+src\main\java\helper\JsonSchemaHelper.java:4: error: package com.github.fge.jsonschema.cfg does not exist
+import com.github.fge.jsonschema.cfg.ValidationConfiguration;
+                                    ^
+src\main\java\helper\JsonSchemaHelper.java:5: error: package com.github.fge.jsonschema.main does not exist
+import com.github.fge.jsonschema.main.JsonSchemaFactory;
+                                     ^
+src\main\java\helper\JsonSchemaHelper.java:8: error: package io.restassured.response does not exist
+import io.restassured.response.Response;
+                              ^
+src\main\java\helper\JsonSchemaHelper.java:9: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\JsonSchemaHelper.java:10: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\JsonSchemaHelper.java:13: error: package com.github.fge.jsonschema does not exist
+import static com.github.fge.jsonschema.SchemaVersion.*;
+                                       ^
+src\main\java\helper\JsonSchemaHelper.java:14: error: package io.restassured.module.jsv does not exist
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
+                                       ^
+src\main\java\helper\JsonSchemaHelper.java:14: error: static import only from classes and interfaces
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
+^
+src\main\java\helper\JsonSchemaHelper.java:15: error: package io.restassured.module.jsv does not exist
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+                                       ^
+src\main\java\helper\JsonSchemaHelper.java:15: error: static import only from classes and interfaces
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
+^
+src\main\java\helper\JsonSchemaHelper.java:16: error: package org.hamcrest does not exist
+import static org.hamcrest.MatcherAssert.assertThat;
+                          ^
+src\main\java\helper\JsonSchemaHelper.java:16: error: static import only from classes and interfaces
+import static org.hamcrest.MatcherAssert.assertThat;
+^
+src\main\java\helper\ResponseBodyHelper.java:5: error: package io.restassured.path.json does not exist
+import io.restassured.path.json.JsonPath;
+                               ^
+src\main\java\helper\ResponseBodyHelper.java:6: error: package io.restassured.path.xml does not exist
+import io.restassured.path.xml.XmlPath;
+                              ^
+src\main\java\helper\ResponseBodyHelper.java:7: error: package io.restassured.response does not exist
+import io.restassured.response.Response;
+                              ^
+src\main\java\helper\ResponseBodyHelper.java:8: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\helper\ResponseBodyHelper.java:9: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\helper\JsonSchemaHelper.java:22: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(JsonSchemaHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class JsonSchemaHelper
+src\main\java\helper\JsonSchemaHelper.java:53: error: cannot find symbol
+    protected void jsonSchemaValidatiorWithSetting(String jsonSchema, SchemaVersion schemaVersion) throws NullResponse {
+                                                                      ^
+  symbol:   class SchemaVersion
+  location: class JsonSchemaHelper
+src\main\java\helper\ResponseBodyHelper.java:20: error: cannot find symbol
+    private final Logger log = LogManager.getLogger(ResponseBodyHelper.class);
+                  ^
+  symbol:   class Logger
+  location: class ResponseBodyHelper
+100 errors
+only showing the first 100 errors, of 410 total; use -Xmaxerrs if you would like to see more

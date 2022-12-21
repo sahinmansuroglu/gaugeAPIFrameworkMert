@@ -1,0 +1,985 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 2783milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2783"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64877"}
+{"logLevel":"info","message":"Listening on port:64877"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateNumberStoreSpec' and 'imp.RandomDataStore.generateNumberStoreSpec'"}
+{"logLevel":"debug","message":"Found Generate a max {} digit number and store it in Spec store as {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateNumberStoreSpec' and 'imp.RandomDataStore.generateNumberStoreSpec'"}
+{"logLevel":"debug","message":"Found Sayı oluştur,en fazla {} basamaklı ve spec deposuna {} anahtarı ile kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchemaInClasspathWithSpecData' and 'imp.JsonSchemaImp.validateJsonSchemaInClasspathWithSpecData'"}
+{"logLevel":"debug","message":"Found Validate json {} from the spec stored data with schema {} in classpath in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseTimeImp.checkResponseTimeAsSeconds' and 'imp.ResponseTimeImp.checkResponseTimeAsSeconds'"}
+{"logLevel":"debug","message":"Found Get response time as seconds and compare it, is it less then {}? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseTimeImp.checkResponseTimeAsSeconds' and 'imp.ResponseTimeImp.checkResponseTimeAsSeconds'"}
+{"logLevel":"debug","message":"Found Response zamanını getir ve karşılaştır, {} saniyeden düşük mü?' in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HeaderImp.addSOAPActionToReq' and 'imp.HeaderImp.addSOAPActionToReq'"}
+{"logLevel":"debug","message":"Found Add SOAPAction {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HeaderImp.addSOAPActionToReq' and 'imp.HeaderImp.addSOAPActionToReq'"}
+{"logLevel":"debug","message":"Found SOAPAction ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.CompareImp.dataCompareContainsFromResponse' and 'imp.CompareImp.dataCompareContainsFromResponse'"}
+{"logLevel":"debug","message":"Found Get {} from response and then compare with {}, is it contains the value? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.OptionsRequestsImp.optionRequests' and 'imp.methods.OptionsRequestsImp.optionRequests'"}
+{"logLevel":"debug","message":"Found Options request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.OptionsRequestsImp.optionRequests' and 'imp.methods.OptionsRequestsImp.optionRequests'"}
+{"logLevel":"debug","message":"Found Options isteği gönder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.OptionsRequestsImp.optionRequests' and 'imp.methods.OptionsRequestsImp.optionRequests'"}
+{"logLevel":"debug","message":"Found Options request {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.OptionsRequestsImp.optionRequests' and 'imp.methods.OptionsRequestsImp.optionRequests'"}
+{"logLevel":"debug","message":"Found Options isteği gönder {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeJsonFileValueDuringScenario' and 'imp.VariableImp.storeJsonFileValueDuringScenario'"}
+{"logLevel":"debug","message":"Found Store json {}'s value from classpath with {} during scenario in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeJsonFileValueDuringScenario' and 'imp.VariableImp.storeJsonFileValueDuringScenario'"}
+{"logLevel":"debug","message":"Found Senaryo boyunca json {} içeriğini {} anahtarı ile sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeJsonFileValueDuringSuit' and 'imp.VariableImp.storeJsonFileValueDuringSuit'"}
+{"logLevel":"debug","message":"Found Store json {}'s value from classpath with {} during suit in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeJsonFileValueDuringSuit' and 'imp.VariableImp.storeJsonFileValueDuringSuit'"}
+{"logLevel":"debug","message":"Found Suit boyunca json {} içeriğini {} anahtarı ile sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.HeadRequestImp.headRequests' and 'imp.methods.HeadRequestImp.headRequests'"}
+{"logLevel":"debug","message":"Found Head request {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.HeadRequestImp.headRequests' and 'imp.methods.HeadRequestImp.headRequests'"}
+{"logLevel":"debug","message":"Found Head isteği gönder {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.HeadRequestImp.headRequests' and 'imp.methods.HeadRequestImp.headRequests'"}
+{"logLevel":"debug","message":"Found Head request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.HeadRequestImp.headRequests' and 'imp.methods.HeadRequestImp.headRequests'"}
+{"logLevel":"debug","message":"Found Head isteği gönder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.replaceAndStoreScenarioDataOnlyFirst' and 'imp.StringImp.replaceAndStoreScenarioDataOnlyFirst'"}
+{"logLevel":"debug","message":"Found Replace {} old chars to new {} chars on {} text but only first and store it on Scenario store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.SleepHelper.sleepForMillisecond' and 'imp.SleepHelper.sleepForMillisecond'"}
+{"logLevel":"debug","message":"Found Sleep for {} milliSecond in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.SleepHelper.sleepForMillisecond' and 'imp.SleepHelper.sleepForMillisecond'"}
+{"logLevel":"debug","message":"Found Testi {} milli saniyeliğine durdur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchemaInClasspathWithScenarioData' and 'imp.JsonSchemaImp.validateJsonSchemaInClasspathWithScenarioData'"}
+{"logLevel":"debug","message":"Found Validate json {} from the scenario stored data with schema {} in classpath in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generatePhoneNumberScenario' and 'imp.RandomDataStore.generatePhoneNumberScenario'"}
+{"logLevel":"debug","message":"Found Generate new phone number and store as {} during scenario in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.UrlImp.addBaseUrlToReq' and 'imp.UrlImp.addBaseUrlToReq'"}
+{"logLevel":"debug","message":"Found Add base url {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.UrlImp.addBaseUrlToReq' and 'imp.UrlImp.addBaseUrlToReq'"}
+{"logLevel":"debug","message":"Found Url ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForScenarioAsJson' and 'imp.ResponseBodyImp.storeResponseForScenarioAsJson'"}
+{"logLevel":"debug","message":"Found Store response as json with {} during scenario in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForScenarioAsJson' and 'imp.ResponseBodyImp.storeResponseForScenarioAsJson'"}
+{"logLevel":"debug","message":"Found Response'u json olarak {} anahtarı ile senaryo boyunca sakla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateBetweenNumberStoreScenario' and 'imp.RandomDataStore.generateBetweenNumberStoreScenario'"}
+{"logLevel":"debug","message":"Found Generate a number between {} and {} and end and store it in Scenario store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateBetweenNumberStoreScenario' and 'imp.RandomDataStore.generateBetweenNumberStoreScenario'"}
+{"logLevel":"debug","message":"Found Sayı oluştur, {} ile {} arasında ve senaryo deposuna {} anahtarı ile kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnNameSpec' and 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnNameSpec'"}
+{"logLevel":"debug","message":"Found Get column {} data from query {} result and save in spec store in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnNameSpec' and 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnNameSpec'"}
+{"logLevel":"debug","message":"Found Query {} sorgusu sonucundan {} sütun verisini spec deposunda sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.PathParamImp.addPathParaFromStore' and 'imp.PathParamImp.addPathParaFromStore'"}
+{"logLevel":"debug","message":"Found Add path parameter from store with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.PathParamImp.addPathParaFromStore' and 'imp.PathParamImp.addPathParaFromStore'"}
+{"logLevel":"debug","message":"Found {} anahtarı ile saklanan datalardan değeri al path parametresi olarak ekle. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateSpecificDigitNumberStoreSpec' and 'imp.RandomDataStore.generateSpecificDigitNumberStoreSpec'"}
+{"logLevel":"debug","message":"Found Generate a {} digit number and store it in Spec store with {} key as string type in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateSpecificDigitNumberStoreSpec' and 'imp.RandomDataStore.generateSpecificDigitNumberStoreSpec'"}
+{"logLevel":"debug","message":"Found Sayı oluştur, {} basamaklı ve spec deposuna {} anahtarı ile dizi olarak kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.bearerAuthFromSuitStore' and 'imp.AuthImp.bearerAuthFromSuitStore'"}
+{"logLevel":"debug","message":"Found Add Bearer token from suit store {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.bearerAuthFromSuitStore' and 'imp.AuthImp.bearerAuthFromSuitStore'"}
+{"logLevel":"debug","message":"Found Suit store'dan Bearer token ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.DeleteRequestImp.deleteRequests' and 'imp.methods.DeleteRequestImp.deleteRequests'"}
+{"logLevel":"debug","message":"Found Delete request {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.DeleteRequestImp.deleteRequests' and 'imp.methods.DeleteRequestImp.deleteRequests'"}
+{"logLevel":"debug","message":"Found Delete isteği gönder {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.GetRequestImp.getRequests' and 'imp.methods.GetRequestImp.getRequests'"}
+{"logLevel":"debug","message":"Found Get request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.GetRequestImp.getRequests' and 'imp.methods.GetRequestImp.getRequests'"}
+{"logLevel":"debug","message":"Found Get isteği gönder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.DeleteRequestImp.deleteRequests' and 'imp.methods.DeleteRequestImp.deleteRequests'"}
+{"logLevel":"debug","message":"Found Delete request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.DeleteRequestImp.deleteRequests' and 'imp.methods.DeleteRequestImp.deleteRequests'"}
+{"logLevel":"debug","message":"Found Delete isteği gönder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.GetRequestImp.getRequests' and 'imp.methods.GetRequestImp.getRequests'"}
+{"logLevel":"debug","message":"Found Get request {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.GetRequestImp.getRequests' and 'imp.methods.GetRequestImp.getRequests'"}
+{"logLevel":"debug","message":"Found Get isteği gönder {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.QueryParamImp.addQueryParamsfromStore' and 'imp.QueryParamImp.addQueryParamsfromStore'"}
+{"logLevel":"debug","message":"Found Add query parameter from store with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.QueryParamImp.addQueryParamsfromStore' and 'imp.QueryParamImp.addQueryParamsfromStore'"}
+{"logLevel":"debug","message":"Found {} anahtarı ile saklanan datalardan değeri al query parametresi olarak ekle. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PostRequestImp.postRequests' and 'imp.methods.PostRequestImp.postRequests'"}
+{"logLevel":"debug","message":"Found Post request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PostRequestImp.postRequests' and 'imp.methods.PostRequestImp.postRequests'"}
+{"logLevel":"debug","message":"Found Post isteği gönder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PostRequestImp.postRequests' and 'imp.methods.PostRequestImp.postRequests'"}
+{"logLevel":"debug","message":"Found Post request {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PostRequestImp.postRequests' and 'imp.methods.PostRequestImp.postRequests'"}
+{"logLevel":"debug","message":"Found Post isteği gönder {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HeaderImp.setContentTypeJsonImp' and 'imp.HeaderImp.setContentTypeJsonImp'"}
+{"logLevel":"debug","message":"Found Set contentType is JSON in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioSpec' and 'imp.RequestBodyImp.addBodyFromScenarioSpec'"}
+{"logLevel":"debug","message":"Found Add payload from spec store with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioSpec' and 'imp.RequestBodyImp.addBodyFromScenarioSpec'"}
+{"logLevel":"debug","message":"Found Add body from spec store with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioSpec' and 'imp.RequestBodyImp.addBodyFromScenarioSpec'"}
+{"logLevel":"debug","message":"Found Spec kayıtlı verisinden istek body'si ekle, kayıt anahtarı {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generatePhoneNumberSuit' and 'imp.RandomDataStore.generatePhoneNumberSuit'"}
+{"logLevel":"debug","message":"Found Generate new phone number and store as {} during suit in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.LogImp.logThisParam' and 'imp.LogImp.logThisParam'"}
+{"logLevel":"debug","message":"Found Log this param {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.LogImp.logThisParam' and 'imp.LogImp.logThisParam'"}
+{"logLevel":"debug","message":"Found Kayıtlı parametreyi logla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringSuiteFromFile' and 'imp.VariableImp.storeVariableDuringSuiteFromFile'"}
+{"logLevel":"debug","message":"Found Store {}'s value from classpath with {} during suite in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringSuiteFromFile' and 'imp.VariableImp.storeVariableDuringSuiteFromFile'"}
+{"logLevel":"debug","message":"Found Suite boyunca {} içeriğini {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchemaInClasspathAccordingDraft4' and 'imp.JsonSchemaImp.validateJsonSchemaInClasspathAccordingDraft4'"}
+{"logLevel":"debug","message":"Found Validate response with  schema {} in classpath according draft4 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.bearerAuthFromSpecStore' and 'imp.AuthImp.bearerAuthFromSpecStore'"}
+{"logLevel":"debug","message":"Found Add Bearer token from spec store {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.bearerAuthFromSpecStore' and 'imp.AuthImp.bearerAuthFromSpecStore'"}
+{"logLevel":"debug","message":"Found Spec store'dan Bearer token ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchemaInClasspathAccordingDraft3' and 'imp.JsonSchemaImp.validateJsonSchemaInClasspathAccordingDraft3'"}
+{"logLevel":"debug","message":"Found Validate response with  schema {} in classpath according draft3 in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HeaderImp.addHeadersToReq' and 'imp.HeaderImp.addHeadersToReq'"}
+{"logLevel":"debug","message":"Found Add Headers {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HeaderImp.addHeadersToReq' and 'imp.HeaderImp.addHeadersToReq'"}
+{"logLevel":"debug","message":"Found Header Ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForScenario' and 'imp.ResponseBodyImp.storeResponseForScenario'"}
+{"logLevel":"debug","message":"Found Store response as string with {} during scenario in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForScenario' and 'imp.ResponseBodyImp.storeResponseForScenario'"}
+{"logLevel":"debug","message":"Found Response'u String olarak {} anahtarı ile senaryo boyunca sakla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.updateBodyFromScenarioData' and 'imp.RequestBodyImp.updateBodyFromScenarioData'"}
+{"logLevel":"debug","message":"Found Get body with {} from store and update {} as {} from scenario data in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.updateBodyFromScenarioData' and 'imp.RequestBodyImp.updateBodyFromScenarioData'"}
+{"logLevel":"debug","message":"Found {} anahtarı ile saklanan body'den, {} değerini al, kayıtlı {}'in değeri ile güncelle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.updateBodyFromScenarioData' and 'imp.RequestBodyImp.updateBodyFromScenarioData'"}
+{"logLevel":"debug","message":"Found Get body {} and update {}={} in json then store it during the scenario with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.UrlImp.addBasePathToReq' and 'imp.UrlImp.addBasePathToReq'"}
+{"logLevel":"debug","message":"Found Add endpoint {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.UrlImp.addBasePathToReq' and 'imp.UrlImp.addBasePathToReq'"}
+{"logLevel":"debug","message":"Found Endpoint ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.UrlImp.addBasePathToReq' and 'imp.UrlImp.addBasePathToReq'"}
+{"logLevel":"debug","message":"Found Add base path {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromStore' and 'imp.RequestBodyImp.addBodyFromStore'"}
+{"logLevel":"debug","message":"Found Add payload from store with key {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioStore' and 'imp.RequestBodyImp.addBodyFromStore'"}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromStore' and 'imp.RequestBodyImp.addBodyFromStore'"}
+{"logLevel":"debug","message":"Found Senaryo kayıtlı verisinden istek body'si ekle, kayıt anahtarı {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestImp.defineNewApiRequest' and 'imp.RequestImp.defineNewApiRequest'"}
+{"logLevel":"debug","message":"Found Define new request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestImp.defineNewApiRequest' and 'imp.RequestImp.defineNewApiRequest'"}
+{"logLevel":"debug","message":"Found Yeni bir api isteği tanımla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HttpsImp.addRelaxedHTTPSValidationToRequest' and 'imp.HttpsImp.addRelaxedHTTPSValidationToRequest'"}
+{"logLevel":"debug","message":"Found Add relaxed HTTPS validation in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HttpsImp.addRelaxedHTTPSValidationToRequest' and 'imp.HttpsImp.addRelaxedHTTPSValidationToRequest'"}
+{"logLevel":"debug","message":"Found Varsayılan https sertifkası ekleyin in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchema' and 'imp.JsonSchemaImp.validateJsonSchema'"}
+{"logLevel":"debug","message":"Found Validate stored json {} response with stored schema {} from scenario data store in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchema' and 'imp.JsonSchemaImp.validateJsonSchema'"}
+{"logLevel":"debug","message":"Found Validate response json with schema {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchema' and 'imp.JsonSchemaImp.validateJsonSchema'"}
+{"logLevel":"debug","message":"Found Validate response json with schema {} which is in from class path in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchema' and 'imp.JsonSchemaImp.validateJsonSchema'"}
+{"logLevel":"debug","message":"Found Responsu resource da tanımlanan şema {} ile dorğulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.basic' and 'imp.AuthImp.basic'"}
+{"logLevel":"debug","message":"Found Basic auth with {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.basic' and 'imp.AuthImp.basic'"}
+{"logLevel":"debug","message":"Found Kullanıcı adı: {}, Şifre {} ile temel yetkilendirme yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.replaceAndStoreSpecDataOnlyFirst' and 'imp.StringImp.replaceAndStoreSpecDataOnlyFirst'"}
+{"logLevel":"debug","message":"Found Replace {} old chars to new {} chars on {} text but only first and store it on Spec store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.CompareImp.dataCompareNotEqualsFromResponse' and 'imp.CompareImp.dataCompareNotEqualsFromResponse'"}
+{"logLevel":"debug","message":"Found Get {} from response and then compare with {}, Are they not equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.CompareImp.dataCompareNotEqualsFromResponse' and 'imp.CompareImp.dataCompareNotEqualsFromResponse'"}
+{"logLevel":"debug","message":"Found Get value with {} from response and verify it isn't equal with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.CompareImp.dataCompareNotEqualsFromResponse' and 'imp.CompareImp.dataCompareNotEqualsFromResponse'"}
+{"logLevel":"debug","message":"Found Yanıttan {} ile değer alın ve {} ile eşit olmadığını doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxyWithUri'"}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxyWithUri'"}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxyWithUri' and 'imp.ProxyImp.addProxyWithUri'"}
+{"logLevel":"debug","message":"Found Add proxy to request with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxyWithUri' and 'imp.ProxyImp.addProxyWithUri'"}
+{"logLevel":"debug","message":"Found Proxy ekle, {}  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringSpecFromFile' and 'imp.VariableImp.storeVariableDuringSpecFromFile'"}
+{"logLevel":"debug","message":"Found Store {}'s value from classpath with {} during spec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringSpecFromFile' and 'imp.VariableImp.storeVariableDuringSpecFromFile'"}
+{"logLevel":"debug","message":"Found Spec boyunca {} içeriğini {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContains' and 'imp.MutualCompareImp.dataCompareContains'"}
+{"logLevel":"debug","message":"Found Check if {} is contains {} as string in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContains' and 'imp.MutualCompareImp.dataCompareContains'"}
+{"logLevel":"debug","message":"Found Verify {} is contains {} as string in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContains' and 'imp.MutualCompareImp.dataCompareContains'"}
+{"logLevel":"debug","message":"Found Değer {}'in değer2 {}'i içerdiğini doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.replaceAndStoreScenarioData' and 'imp.StringImp.replaceAndStoreScenarioData'"}
+{"logLevel":"debug","message":"Found Replace {} old chars to new {} chars on {} text and store it on Scenario store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeJsonFileValueDuringSpec' and 'imp.VariableImp.storeJsonFileValueDuringSpec'"}
+{"logLevel":"debug","message":"Found Store json {}'s value from classpath with {} during spec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeJsonFileValueDuringSpec' and 'imp.VariableImp.storeJsonFileValueDuringSpec'"}
+{"logLevel":"debug","message":"Found Spec boyunca json {} içeriğini {} anahtarı ile sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.QueryParamImp.addQueryParamsToReq' and 'imp.QueryParamImp.addQueryParamsToReq'"}
+{"logLevel":"debug","message":"Found Add query parameter {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.QueryParamImp.addQueryParamsToReq' and 'imp.QueryParamImp.addQueryParamsToReq'"}
+{"logLevel":"debug","message":"Found Query parametresi ekle {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyAsFile' and 'imp.RequestBodyImp.addBodyAsFile'"}
+{"logLevel":"debug","message":"Found Add payload as map {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyAsFile' and 'imp.RequestBodyImp.addBodyAsFile'"}
+{"logLevel":"debug","message":"Found Add body as map {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyAsFile' and 'imp.RequestBodyImp.addBodyAsFile'"}
+{"logLevel":"debug","message":"Found Tablodan istek body'si ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.QueryParamImp.addQueryParamsToReq' and 'imp.QueryParamImp.addQueryParamsToReq'"}
+{"logLevel":"debug","message":"Found Add query parameter {} = {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.QueryParamImp.addQueryParamsToReq' and 'imp.QueryParamImp.addQueryParamsToReq'"}
+{"logLevel":"debug","message":"Found Query parametresi ekle {} = {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyAsFile' and 'imp.RequestBodyImp.addBodyAsFile'"}
+{"logLevel":"debug","message":"Found Add payload as file from resource {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyAsFile' and 'imp.RequestBodyImp.addBodyAsFile'"}
+{"logLevel":"debug","message":"Found Add body as file from resource {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyAsFile' and 'imp.RequestBodyImp.addBodyAsFile'"}
+{"logLevel":"debug","message":"Found Dosya tipinde istek body'si ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.QueryParamImp.addQueryParamsToReq' and 'imp.QueryParamImp.addQueryParamsToReq'"}
+{"logLevel":"debug","message":"Found Add query parameter {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.QueryParamImp.addQueryParamsToReq' and 'imp.QueryParamImp.addQueryParamsToReq'"}
+{"logLevel":"debug","message":"Found Query parametresi ekle {} in current project scope."}
+{"logLevel":"debug","message":"Loading Get \"{}\" file and add to request as multi-part form datavia reflected sources."}
+{"logLevel":"debug","message":"Loading File \"{}\" dosyayı recourcedan getir ve multi-part form data olarak eklevia reflected sources."}
+{"logLevel":"debug","message":"Comparing 'imp.MultiPartFormDataImp.addMultiPartFormDataToRequest' and 'imp.MultiPartFormDataImp.addMultiPartFormDataToRequest'"}
+{"logLevel":"debug","message":"Found Get {} file and add to request with key {} as multi-part form data in current project scope."}
+{"logLevel":"debug","message":"Loading File \"{}\" dosyayı recourcedan getir ve key {} ile multi-part form data olarak eklevia reflected sources."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringSpec' and 'imp.VariableImp.storeVariableDuringSpec'"}
+{"logLevel":"debug","message":"Found Store variable {} = {} during spec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringSpec' and 'imp.VariableImp.storeVariableDuringSpec'"}
+{"logLevel":"debug","message":"Found Spec boyunca değişkeni sakla {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareEqualsDirectData' and 'imp.MutualCompareImp.dataCompareEqualsDirectData'"}
+{"logLevel":"debug","message":"Found Get {} from scenario store and then compare with {}, Are they equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareEqualsDirectData' and 'imp.MutualCompareImp.dataCompareEqualsDirectData'"}
+{"logLevel":"debug","message":"Found Get {} from scenario store and verify it is equal with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareEqualsDirectData' and 'imp.MutualCompareImp.dataCompareEqualsDirectData'"}
+{"logLevel":"debug","message":"Found Senaryo deposundan {} alın ve değer:{} ile eşit olduğunu doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchemaInClasspathAccordingHyperSchema' and 'imp.JsonSchemaImp.validateJsonSchemaInClasspathAccordingHyperSchema'"}
+{"logLevel":"debug","message":"Found Validate response with  schema {} in classpath according hyper schema in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreScenarioStore' and 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreScenarioStore'"}
+{"logLevel":"debug","message":"Found Get column data from query {} result and save all column data in scenario store with column name in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreScenarioStore' and 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreScenarioStore'"}
+{"logLevel":"debug","message":"Found Query {} sorgusu sonucundan dönen tüm datayı kolon isimleriyle birlikte senaryo deposunda sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.convertToStringStoreSuit' and 'imp.ResponseBodyImp.convertToStringStoreSuit'"}
+{"logLevel":"debug","message":"Found Get {} from the body then convert it to list and store it with {} during the suit in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.LogImp.addFilter' and 'imp.LogImp.addFilter'"}
+{"logLevel":"debug","message":"Found Add log filter with errorStatus {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.LogImp.addFilter' and 'imp.LogImp.addFilter'"}
+{"logLevel":"debug","message":"Found Bu statü kodları için log filtresi ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEquals' and 'imp.MutualCompareImp.dataCompareNotEquals'"}
+{"logLevel":"debug","message":"Found Get {} and {} from scenario store and then compare, Are they not equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEquals' and 'imp.MutualCompareImp.dataCompareNotEquals'"}
+{"logLevel":"debug","message":"Found Key {} ve {}'i senaryo deposundan getir ve eşit olmadıklarını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEquals' and 'imp.MutualCompareImp.dataCompareNotEquals'"}
+{"logLevel":"debug","message":"Found Get {} and {} from the secnario store and verify they aren't equal in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.subStringAndStoreScenarioStore' and 'imp.StringImp.subStringAndStoreScenarioStore'"}
+{"logLevel":"debug","message":"Found Substring text {} from {} index to the end then store it in Scenario store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.subStringAndStoreScenarioStore' and 'imp.StringImp.subStringAndStoreScenarioStore'"}
+{"logLevel":"debug","message":"Found Substring text {} from {} index to {} index then store it in Scenario store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.replaceAndStoreSuitDataOnlyFirst' and 'imp.StringImp.replaceAndStoreSuitDataOnlyFirst'"}
+{"logLevel":"debug","message":"Found Replace {} old chars to new {} chars on {} text but only first and store it on Suit store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseTimeImp.checkResponseTimeAsMillis' and 'imp.ResponseTimeImp.checkResponseTimeAsMillis'"}
+{"logLevel":"debug","message":"Found Get response time as milliseconds and compare it, is it less then {}? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseTimeImp.checkResponseTimeAsMillis' and 'imp.ResponseTimeImp.checkResponseTimeAsMillis'"}
+{"logLevel":"debug","message":"Found Response zamanını getir ve karşılaştır, {} milisaniyeden düşük mü?' in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.updateAndAdd' and 'imp.RequestBodyImp.updateAndAdd'"}
+{"logLevel":"debug","message":"Found Get json file {} and update as {}={} then add the request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.updateAndAdd' and 'imp.RequestBodyImp.updateAndAdd'"}
+{"logLevel":"debug","message":"Found Resource'dan json dosyasını {} oku ve {}={} olarak güncele sonra requeste ekle  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.convertToString' and 'imp.ResponseBodyImp.convertToString'"}
+{"logLevel":"debug","message":"Found Get {} from the body then convert it to list and store it with {} during the scenario in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxy'"}
+{"logLevel":"debug","message":"Found Add proxy to request with {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxy'"}
+{"logLevel":"debug","message":"Found Proxy ekle, {} and {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxy'"}
+{"logLevel":"debug","message":"Found Add proxy to request with {}, {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxy'"}
+{"logLevel":"debug","message":"Found Proxy ekle {}, {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxy'"}
+{"logLevel":"debug","message":"Found Add proxy to request with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxy'"}
+{"logLevel":"debug","message":"Found Proxy ekle, {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxy'"}
+{"logLevel":"debug","message":"Found Add proxy to request with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxy' and 'imp.ProxyImp.addProxy'"}
+{"logLevel":"debug","message":"Found Proxy ekle, {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateBetweenNumberStoreSuit' and 'imp.RandomDataStore.generateBetweenNumberStoreSuit'"}
+{"logLevel":"debug","message":"Found Generate a number between {} and {} and end and store it in Suit store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateBetweenNumberStoreSuit' and 'imp.RandomDataStore.generateBetweenNumberStoreSuit'"}
+{"logLevel":"debug","message":"Found Sayı oluştur, {} ile {} arasında ve suit deposuna {} anahtarı ile kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnName' and 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnName'"}
+{"logLevel":"debug","message":"Found Get column {} data from query {} result and save in scenario store in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnName' and 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnName'"}
+{"logLevel":"debug","message":"Found Query {} sorgusu sonucundan {} sütun verisini scenario deposunda sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generatePhoneNumberSpec' and 'imp.RandomDataStore.generatePhoneNumberSpec'"}
+{"logLevel":"debug","message":"Found Generate new phone number and store as {} during spec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PutRequestsImp.putRequests' and 'imp.methods.PutRequestsImp.putRequests'"}
+{"logLevel":"debug","message":"Found Put request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PutRequestsImp.putRequests' and 'imp.methods.PutRequestsImp.putRequests'"}
+{"logLevel":"debug","message":"Found Put isteği gönder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PutRequestsImp.putRequests' and 'imp.methods.PutRequestsImp.putRequests'"}
+{"logLevel":"debug","message":"Found Put request {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PutRequestsImp.putRequests' and 'imp.methods.PutRequestsImp.putRequests'"}
+{"logLevel":"debug","message":"Found Put isteği gönder {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeTable' and 'imp.VariableImp.storeTable'"}
+{"logLevel":"debug","message":"Found Store table as map during scenario with {} {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeTable' and 'imp.VariableImp.storeTable'"}
+{"logLevel":"debug","message":"Found Tabloyu map objesi olarak {} anahtarı ile senaryo boyunca sakla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.subStringAndStoreSuitStore' and 'imp.StringImp.subStringAndStoreSuitStore'"}
+{"logLevel":"debug","message":"Found Substring text {} from {} index to {} index then store it in Suit store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.subStringAndStoreSuitStore' and 'imp.StringImp.subStringAndStoreSuitStore'"}
+{"logLevel":"debug","message":"Found Substring text {} from {} index to the end then store it in Suit store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareEqualsDirectDataFromSpecStore' and 'imp.MutualCompareImp.dataCompareEqualsDirectDataFromSpecStore'"}
+{"logLevel":"debug","message":"Found Get {} from spec store and then compare with {}, Are they equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareEqualsDirectDataFromSpecStore' and 'imp.MutualCompareImp.dataCompareEqualsDirectDataFromSpecStore'"}
+{"logLevel":"debug","message":"Found Get {} from spec store and verify it is equal with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareEqualsDirectDataFromSpecStore' and 'imp.MutualCompareImp.dataCompareEqualsDirectDataFromSpecStore'"}
+{"logLevel":"debug","message":"Found Spec deposundan {} alın ve değer:{} ile eşit olduğunu doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsFromSpecStore' and 'imp.MutualCompareImp.dataCompareNotEqualsFromSpecStore'"}
+{"logLevel":"debug","message":"Found Get {} and {} from spec store and then compare, Are they not equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsFromSpecStore' and 'imp.MutualCompareImp.dataCompareNotEqualsFromSpecStore'"}
+{"logLevel":"debug","message":"Found Key {} ve {}'i spec deposundan getir ve eşit olmadıklarını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsFromSpecStore' and 'imp.MutualCompareImp.dataCompareNotEqualsFromSpecStore'"}
+{"logLevel":"debug","message":"Found Get {} and {} from the spec store and verify they aren't equal in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonSchemaImp.validateJsonSchemaInClasspathWithSuitData' and 'imp.JsonSchemaImp.validateJsonSchemaInClasspathWithSuitData'"}
+{"logLevel":"debug","message":"Found Validate json {} from the suit stored data with schema {} in classpath in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.getResponseElementValueForSpec' and 'imp.ResponseBodyImp.getResponseElementValueForSpec'"}
+{"logLevel":"debug","message":"Found Get {} from response and store it with {} during spec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.getResponseElementValueForSpec' and 'imp.ResponseBodyImp.getResponseElementValueForSpec'"}
+{"logLevel":"debug","message":"Found Respons'dan {} değerini getir ve {} anahtarı ile spec boyunca sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxyWithSpecification' and 'imp.ProxyImp.addProxyWithSpecification'"}
+{"logLevel":"debug","message":"Found Add proxy url with host: {}, port: {}, schema: {}, username: {} and password:{} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ProxyImp.addProxyWithSpecification' and 'imp.ProxyImp.addProxyWithSpecification'"}
+{"logLevel":"debug","message":"Found Proxy ekle, host: {}, port: {}, schema: {}, username: {} and password:{} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSuitStore' and 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSuitStore'"}
+{"logLevel":"debug","message":"Found Get {} from suit store and check if it is contains {} as string in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSuitStore' and 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSuitStore'"}
+{"logLevel":"debug","message":"Found Get {} from suit store and verify it is contains {} as string in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSuitStore' and 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSuitStore'"}
+{"logLevel":"debug","message":"Found Suit deposundan {} alın ve dize olarak {} içerdiğini doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForSuite' and 'imp.ResponseBodyImp.storeResponseForSuite'"}
+{"logLevel":"debug","message":"Found Store response as string with {} during suite in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForSuite' and 'imp.ResponseBodyImp.storeResponseForSuite'"}
+{"logLevel":"debug","message":"Found Response'u String olarak {} anahtarı ile suite boyunca sakla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.removeFromStore' and 'imp.VariableImp.removeFromStore'"}
+{"logLevel":"debug","message":"Found Remove {} from store in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringScenario' and 'imp.VariableImp.storeVariableDuringScenario'"}
+{"logLevel":"debug","message":"Found Store variable {} = {} during scenario in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringScenario' and 'imp.VariableImp.storeVariableDuringScenario'"}
+{"logLevel":"debug","message":"Found Senaryo boyunca değişkeni sakla {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSuitStore' and 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSuitStore'"}
+{"logLevel":"debug","message":"Found Get column data from query {} result and save all column data in suit store with column name in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSpecStore' and 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSuitStore'"}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSuitStore' and 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSuitStore'"}
+{"logLevel":"debug","message":"Found Query {} sorgusu sonucundan dönen tüm datayı kolon isimleriyle birlikte spec deposunda sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringScenarioFromFile' and 'imp.VariableImp.storeVariableDuringScenarioFromFile'"}
+{"logLevel":"debug","message":"Found Store {}'s value from classpath with {} during scenario in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringScenarioFromFile' and 'imp.VariableImp.storeVariableDuringScenarioFromFile'"}
+{"logLevel":"debug","message":"Found Senaryo boyunca {} içeriğini {} anahtarı ile sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PatchRequestsImp.patchRequests' and 'imp.methods.PatchRequestsImp.patchRequests'"}
+{"logLevel":"debug","message":"Found Patch request in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PatchRequestsImp.patchRequests' and 'imp.methods.PatchRequestsImp.patchRequests'"}
+{"logLevel":"debug","message":"Found Patch isteği gönder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PatchRequestsImp.patchRequests' and 'imp.methods.PatchRequestsImp.patchRequests'"}
+{"logLevel":"debug","message":"Found Patch request {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.methods.PatchRequestsImp.patchRequests' and 'imp.methods.PatchRequestsImp.patchRequests'"}
+{"logLevel":"debug","message":"Found Patch isteği gönder {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSpecStore' and 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSpecStore'"}
+{"logLevel":"debug","message":"Found Get {} from spec store and check if it is contains {} as string in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSpecStore' and 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSpecStore'"}
+{"logLevel":"debug","message":"Found Get {} from spec store and verify it is contains {} as string in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSpecStore' and 'imp.MutualCompareImp.dataCompareContainsDirectDataFromSpecStore'"}
+{"logLevel":"debug","message":"Found Spec deposundan {} alın ve dize olarak {} içerdiğini doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateNumberStoreSuit' and 'imp.RandomDataStore.generateNumberStoreSuit'"}
+{"logLevel":"debug","message":"Found Generate a max {} digit number and store it in Suit store as {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateNumberStoreSuit' and 'imp.RandomDataStore.generateNumberStoreSuit'"}
+{"logLevel":"debug","message":"Found Sayı oluştur,en fazla {} basamaklı ve suit deposuna {} anahtarı ile kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateNumberStoreScenario' and 'imp.RandomDataStore.generateNumberStoreScenario'"}
+{"logLevel":"debug","message":"Found Generate a max {} digit number and store it in Scenario store as {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateNumberStoreScenario' and 'imp.RandomDataStore.generateNumberStoreScenario'"}
+{"logLevel":"debug","message":"Found Sayı oluştur,en fazla {} basamaklı ve senaryo deposuna {} anahtarı ile kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HeaderImp.addHeaderToReq' and 'imp.HeaderImp.addHeaderToReq'"}
+{"logLevel":"debug","message":"Found Add as a header {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HeaderImp.addHeaderToReq' and 'imp.HeaderImp.addHeaderToReq'"}
+{"logLevel":"debug","message":"Found Header ekle {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StatusCodeImp.checkStatusCodeFromRes' and 'imp.StatusCodeImp.checkStatusCodeFromRes'"}
+{"logLevel":"debug","message":"Found Check if status code is {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StatusCodeImp.checkStatusCodeFromRes' and 'imp.StatusCodeImp.checkStatusCodeFromRes'"}
+{"logLevel":"debug","message":"Found Statü kodunu kontrol et {} mü? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StatusCodeImp.checkStatusCodeFromRes' and 'imp.StatusCodeImp.checkStatusCodeFromRes'"}
+{"logLevel":"debug","message":"Found Verify that the status code is {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForSpece' and 'imp.ResponseBodyImp.storeResponseForSpece'"}
+{"logLevel":"debug","message":"Found Store response as string with {} during spec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForSpece' and 'imp.ResponseBodyImp.storeResponseForSpece'"}
+{"logLevel":"debug","message":"Found Response'u String olarak {} anahtarı ile spec boyunca sakla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareEquals' and 'imp.MutualCompareImp.dataCompareEquals'"}
+{"logLevel":"debug","message":"Found Get {} and {} from scenario store and then compare, Are they equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareEquals' and 'imp.MutualCompareImp.dataCompareEquals'"}
+{"logLevel":"debug","message":"Found Key {} ve {}'i senaryo deposundan getir ve eşit olduklarını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareEquals' and 'imp.MutualCompareImp.dataCompareEquals'"}
+{"logLevel":"debug","message":"Found Get {} and {} from the scenario store and verify they are equal in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generatePhoneNumberSpec' and 'imp.RandomDataStore.generateMailSpec'"}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateMailSpec' and 'imp.RandomDataStore.generateMailSpec'"}
+{"logLevel":"debug","message":"Found Generate new phone number and store as {} during spec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.CompareImp.dataCompareEqualsFromResponse' and 'imp.CompareImp.dataCompareEqualsFromResponse'"}
+{"logLevel":"debug","message":"Found Get {} from response and then compare with {}, Are they equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.CompareImp.dataCompareEqualsFromResponse' and 'imp.CompareImp.dataCompareEqualsFromResponse'"}
+{"logLevel":"debug","message":"Found Get value with {} from response and verify it is equal with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.CompareImp.dataCompareEqualsFromResponse' and 'imp.CompareImp.dataCompareEqualsFromResponse'"}
+{"logLevel":"debug","message":"Found Yanıttan {} ile değer alın ve {} ile eşit olduğunu doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForSpecAsJson' and 'imp.ResponseBodyImp.storeResponseForSpecAsJson'"}
+{"logLevel":"debug","message":"Found Store response as json with {} during spec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForSpecAsJson' and 'imp.ResponseBodyImp.storeResponseForSpecAsJson'"}
+{"logLevel":"debug","message":"Found Response'u json olarak {} anahtarı ile spec boyunca sakla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.getResponseElementValueForSuite' and 'imp.ResponseBodyImp.getResponseElementValueForSuite'"}
+{"logLevel":"debug","message":"Found Get {} from response and store it with {} during suite in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.getResponseElementValueForSuite' and 'imp.ResponseBodyImp.getResponseElementValueForSuite'"}
+{"logLevel":"debug","message":"Found Respons'dan {} değerini getir ve {} anahtarı ile suite boyunca sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.updateBody' and 'imp.RequestBodyImp.updateBody'"}
+{"logLevel":"debug","message":"Found Update {}={} json from stored scenario with key {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContainsDirectData' and 'imp.MutualCompareImp.dataCompareContainsDirectData'"}
+{"logLevel":"debug","message":"Found Get {} from scenario store and check if it is contains {} as string in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContainsDirectData' and 'imp.MutualCompareImp.dataCompareContainsDirectData'"}
+{"logLevel":"debug","message":"Found Get {} from scenario store and verify it is contains {} as string in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareContainsDirectData' and 'imp.MutualCompareImp.dataCompareContainsDirectData'"}
+{"logLevel":"debug","message":"Found Senaryo deposundan {} alın ve dize olarak {} içerdiğini doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.LogImp.startLog' and 'imp.LogImp.startLog'"}
+{"logLevel":"debug","message":"Found Log {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.LogImp.startLog' and 'imp.LogImp.startLog'"}
+{"logLevel":"debug","message":"Found Logla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.getResponseElementValueForScenario' and 'imp.ResponseBodyImp.getResponseElementValueForScenario'"}
+{"logLevel":"debug","message":"Found Get {} from response and store it with {} during scenario in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.getResponseElementValueForScenario' and 'imp.ResponseBodyImp.getResponseElementValueForScenario'"}
+{"logLevel":"debug","message":"Found Respons'dan {} değerini getir ve {} anahtarı ile senaryo boyunca sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonFilterImp.jsonArrayFilterSuit' and 'imp.JsonFilterImp.jsonArrayFilterSuit'"}
+{"logLevel":"debug","message":"Found Get {} from {} json list which one equals {}={}, and store it during suit with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsDirectData' and 'imp.MutualCompareImp.dataCompareNotEqualsDirectData'"}
+{"logLevel":"debug","message":"Found Get {} from scenario store then compare with {}, Are they not equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsDirectData' and 'imp.MutualCompareImp.dataCompareNotEqualsDirectData'"}
+{"logLevel":"debug","message":"Found Get {} from scenario store and verify it's not equals with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsDirectData' and 'imp.MutualCompareImp.dataCompareNotEqualsDirectData'"}
+{"logLevel":"debug","message":"Found Senaryo deposundan {} alın ve {} ile eşit olmadığını doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateSpecificDigitNumberStoreScenario' and 'imp.RandomDataStore.generateSpecificDigitNumberStoreScenario'"}
+{"logLevel":"debug","message":"Found Generate a {} digit number and store it in Scenario store with {} key as string type in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateSpecificDigitNumberStoreScenario' and 'imp.RandomDataStore.generateSpecificDigitNumberStoreScenario'"}
+{"logLevel":"debug","message":"Found Sayı oluştur, {} basamaklı ve senaryo deposuna {} anahtarı ile dizi olarak kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamToReq' and 'imp.FormParamImp.addFormParamToReq'"}
+{"logLevel":"debug","message":"Found Add form parameter {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamToReq' and 'imp.FormParamImp.addFormParamToReq'"}
+{"logLevel":"debug","message":"Found Form parametresi ekle {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamToReq' and 'imp.FormParamImp.addFormParamToReq'"}
+{"logLevel":"debug","message":"Found Add form parameters {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamToReq' and 'imp.FormParamImp.addFormParamToReq'"}
+{"logLevel":"debug","message":"Found Form parametrelerini ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.SleepHelper.sleepForSecond' and 'imp.SleepHelper.sleepForSecond'"}
+{"logLevel":"debug","message":"Found Sleep for {} second in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.SleepHelper.sleepForSecond' and 'imp.SleepHelper.sleepForSecond'"}
+{"logLevel":"debug","message":"Found Testi {} saniyeliğine durdur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamToReq' and 'imp.FormParamImp.addFormParamToReqWithObjValue'"}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamToReqWithObjValue' and 'imp.FormParamImp.addFormParamToReqWithObjValue'"}
+{"logLevel":"debug","message":"Found Add form parameter {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamToReq' and 'imp.FormParamImp.addFormParamToReqWithObjValue'"}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamToReqWithObjValue' and 'imp.FormParamImp.addFormParamToReqWithObjValue'"}
+{"logLevel":"debug","message":"Found Form parametresi ekle {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.convertToStringStoreSpec' and 'imp.ResponseBodyImp.convertToStringStoreSpec'"}
+{"logLevel":"debug","message":"Found Get {} from the body then convert it to list and store it with {} during the spec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.basicAuthWithPreemptive' and 'imp.AuthImp.basicAuthWithPreemptive'"}
+{"logLevel":"debug","message":"Found Basic auth with {} and {} as preemptive in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.basicAuthWithPreemptive' and 'imp.AuthImp.basicAuthWithPreemptive'"}
+{"logLevel":"debug","message":"Found Kullanıcı adı: {}, Şifre {} ile preemptive temel yetkilendirme yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnNameSuit' and 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnNameSuit'"}
+{"logLevel":"debug","message":"Found Get column {} data from query {} result and save in suit store in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnNameSuit' and 'imp.DbDataImp.GetQueryResultAndSaveValueWithColumnNameSuit'"}
+{"logLevel":"debug","message":"Found Query {} sorgusu sonucundan {} sütun verisini suit deposunda sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSuitStore' and 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSuitStore'"}
+{"logLevel":"debug","message":"Found Get {} from suit store then compare with {}, Are they not equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSuitStore' and 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSuitStore'"}
+{"logLevel":"debug","message":"Found Get {} from suit store and verify it's not equals with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSuitStore' and 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSuitStore'"}
+{"logLevel":"debug","message":"Found Suit deposundan {} alın ve {} ile eşit olmadığını doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.replaceAndStoreSpecData' and 'imp.StringImp.replaceAndStoreSpecData'"}
+{"logLevel":"debug","message":"Found Replace {} old chars to new {} chars on {} text and store it on Spec store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSpecStore' and 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSpecStore'"}
+{"logLevel":"debug","message":"Found Get column data from query {} result and save all column data in spec store with column name in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSpecStore' and 'imp.DbDataImp.GetQueryResultAndSaveValueForAllColumnAndStoreSpecStore'"}
+{"logLevel":"debug","message":"Found Query {} sorgusu sonucundan dönen tüm datayı kolon isimleriyle birlikte spec deposunda sakla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.CompareImp.compareListCount' and 'imp.CompareImp.compareListCount'"}
+{"logLevel":"debug","message":"Found Get {} list from response and then, compare list count with {}, Are they equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateBetweenNumberStoreSpec' and 'imp.RandomDataStore.generateBetweenNumberStoreSpec'"}
+{"logLevel":"debug","message":"Found Generate a number between {} and {} and end and store it in Spec store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateBetweenNumberStoreSpec' and 'imp.RandomDataStore.generateBetweenNumberStoreSpec'"}
+{"logLevel":"debug","message":"Found Sayı oluştur, {} ile {} arasında ve spec deposuna {} anahtarı ile kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.replaceAndStoreSuitData' and 'imp.StringImp.replaceAndStoreSuitData'"}
+{"logLevel":"debug","message":"Found Replace {} old chars to new {} chars on {} text and store it on Suit store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.checkDataFromResponseIsNotNull' and 'imp.ResponseBodyImp.checkDataFromResponseIsNotNull'"}
+{"logLevel":"debug","message":"Found Get {} from response and then check if is not null? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.checkDataFromResponseIsNotNull' and 'imp.ResponseBodyImp.checkDataFromResponseIsNotNull'"}
+{"logLevel":"debug","message":"Found Get {} from the response and then verify it is not null? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.checkDataFromResponseIsNotNull' and 'imp.ResponseBodyImp.checkDataFromResponseIsNotNull'"}
+{"logLevel":"debug","message":"Found Selector {} ile responsdand eğer getir ve null olmadığını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonFilterImp.jsonArrayFilter' and 'imp.JsonFilterImp.jsonArrayFilter'"}
+{"logLevel":"debug","message":"Found Get {} from {} json list which one equals {}={}, and store it during Scenario with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSpecStore' and 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSpecStore'"}
+{"logLevel":"debug","message":"Found Get {} from spec store then compare with {}, Are they not equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSpecStore' and 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSpecStore'"}
+{"logLevel":"debug","message":"Found Get {} from spec store and verify it's not equals with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSpecStore' and 'imp.MutualCompareImp.dataCompareNotEqualsDirectDataFromSpecStore'"}
+{"logLevel":"debug","message":"Found Spec deposundan {} alın ve {} ile eşit olmadığını doğrulayın in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioSuite' and 'imp.RequestBodyImp.addBodyFromScenarioSuite'"}
+{"logLevel":"debug","message":"Found Add payload from suite store with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioSuite' and 'imp.RequestBodyImp.addBodyFromScenarioSuite'"}
+{"logLevel":"debug","message":"Found Add body from suite store with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioSuite' and 'imp.RequestBodyImp.addBodyFromScenarioSuite'"}
+{"logLevel":"debug","message":"Found Suit kayıtlı verisinden istek body'si ekle, kayıt anahtarı {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.PathParamImp.addPathParamsToReq' and 'imp.PathParamImp.addPathParamsToReq'"}
+{"logLevel":"debug","message":"Found Add path parameter {} = {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.PathParamImp.addPathParamsToReq' and 'imp.PathParamImp.addPathParamsToReq'"}
+{"logLevel":"debug","message":"Found Path parametresi ekle {} = {}. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.PathParamImp.addPathParamsToReq' and 'imp.PathParamImp.addPathParamsToReq'"}
+{"logLevel":"debug","message":"Found Add path parameter {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.PathParamImp.addPathParamsToReq' and 'imp.PathParamImp.addPathParamsToReq'"}
+{"logLevel":"debug","message":"Found Path parametresi ekle {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.PathParamImp.addPathParamsToReq' and 'imp.PathParamImp.addPathParamsToReq'"}
+{"logLevel":"debug","message":"Found Add path parameters {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.PathParamImp.addPathParamsToReq' and 'imp.PathParamImp.addPathParamsToReq'"}
+{"logLevel":"debug","message":"Found Path parametresi ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.JsonFilterImp.jsonArrayFilterSpec' and 'imp.JsonFilterImp.jsonArrayFilterSpec'"}
+{"logLevel":"debug","message":"Found Get {} from {} json list which one equals {}={}, and store it during Spec with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HeaderImp.addMultipleDataContentTypeAsHeader' and 'imp.HeaderImp.addMultipleDataContentTypeAsHeader'"}
+{"logLevel":"debug","message":"Found Add multi-part data as content-type to header with default boundary {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.HeaderImp.addMultipleDataContentTypeAsHeader' and 'imp.HeaderImp.addMultipleDataContentTypeAsHeader'"}
+{"logLevel":"debug","message":"Found Multi-part verileri, ekleyin header varsayılan boundary {} ile in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsFromSuitStore' and 'imp.MutualCompareImp.dataCompareNotEqualsFromSuitStore'"}
+{"logLevel":"debug","message":"Found Get {} and {} from suit store and then compare, Are they not equals? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsFromSuitStore' and 'imp.MutualCompareImp.dataCompareNotEqualsFromSuitStore'"}
+{"logLevel":"debug","message":"Found Key {} ve {}'i suit deposundan getir ve eşit olmadıklarını doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MutualCompareImp.dataCompareNotEqualsFromSuitStore' and 'imp.MutualCompareImp.dataCompareNotEqualsFromSuitStore'"}
+{"logLevel":"debug","message":"Found Get {} and {} from the suit store and verify they aren't equal in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateMailScenario' and 'imp.RandomDataStore.generateMailScenario'"}
+{"logLevel":"debug","message":"Found Generate new mail address and store as {} during scenario in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringSuite' and 'imp.VariableImp.storeVariableDuringSuite'"}
+{"logLevel":"debug","message":"Found Store variable {} = {} during suite in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.VariableImp.storeVariableDuringSuite' and 'imp.VariableImp.storeVariableDuringSuite'"}
+{"logLevel":"debug","message":"Found Suit boyunca değişkeni sakla {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateMailSuit' and 'imp.RandomDataStore.generateMailSuit'"}
+{"logLevel":"debug","message":"Found Generate new mail and store as {} during suit in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MultiPartFormDataImp.addMultiPartFormDataToRequestAsString' and 'imp.MultiPartFormDataImp.addMultiPartFormDataToRequestAsString'"}
+{"logLevel":"debug","message":"Found Add to request {}={} as multi-part form data in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.MultiPartFormDataImp.addMultiPartFormDataToRequestAsString' and 'imp.MultiPartFormDataImp.addMultiPartFormDataToRequestAsString'"}
+{"logLevel":"debug","message":"Found Multi-part parametre olarak ekle {}={} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.bearerAuth' and 'imp.AuthImp.bearerAuth'"}
+{"logLevel":"debug","message":"Found Add Bearer token {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.bearerAuth' and 'imp.AuthImp.bearerAuth'"}
+{"logLevel":"debug","message":"Found Bearer token ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.bearerAuthFromScenarioStore' and 'imp.AuthImp.bearerAuthFromScenarioStore'"}
+{"logLevel":"debug","message":"Found Add Bearer token from scenario store {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.AuthImp.bearerAuthFromScenarioStore' and 'imp.AuthImp.bearerAuthFromScenarioStore'"}
+{"logLevel":"debug","message":"Found Senaryo store'dan Bearer token ekle {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamsToReq' and 'imp.FormParamImp.addFormParamsToReq'"}
+{"logLevel":"debug","message":"Found Add form parameters {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.FormParamImp.addFormParamsToReq' and 'imp.FormParamImp.addFormParamsToReq'"}
+{"logLevel":"debug","message":"Found Form parametrelerini ekleyin {} = {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForSuitAsJson' and 'imp.ResponseBodyImp.storeResponseForSuitAsJson'"}
+{"logLevel":"debug","message":"Found Store response as json with {} during suit in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.storeResponseForSuitAsJson' and 'imp.ResponseBodyImp.storeResponseForSuitAsJson'"}
+{"logLevel":"debug","message":"Found Response'u json olarak {} anahtarı ile suit boyunca sakla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.subStringAndStoreSpecStore' and 'imp.StringImp.subStringAndStoreSpecStore'"}
+{"logLevel":"debug","message":"Found Substring text {} from {} index to the end then store it in Spec store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.StringImp.subStringAndStoreSpecStore' and 'imp.StringImp.subStringAndStoreSpecStore'"}
+{"logLevel":"debug","message":"Found Substring text {} from {} index to {} index then store it in Spec store with {} key in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.checkDataFromResponseIsNull' and 'imp.ResponseBodyImp.checkDataFromResponseIsNull'"}
+{"logLevel":"debug","message":"Found Get {} from response and then check if is null? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.checkDataFromResponseIsNull' and 'imp.ResponseBodyImp.checkDataFromResponseIsNull'"}
+{"logLevel":"debug","message":"Found Get {} from the response and then verify it is null? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.ResponseBodyImp.checkDataFromResponseIsNull' and 'imp.ResponseBodyImp.checkDataFromResponseIsNull'"}
+{"logLevel":"debug","message":"Found Selector {} ile responsdand eğer getir ve null olduğunu doğrula  in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateSpecificDigitNumberStoreSuit' and 'imp.RandomDataStore.generateSpecificDigitNumberStoreSuit'"}
+{"logLevel":"debug","message":"Found Generate a {} digit number and store it in Suit store with {} key as string type in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RandomDataStore.generateSpecificDigitNumberStoreSuit' and 'imp.RandomDataStore.generateSpecificDigitNumberStoreSuit'"}
+{"logLevel":"debug","message":"Found Sayı oluştur, {} basamaklı ve suit deposuna {} anahtarı ile dizi olarak kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioStore' and 'imp.RequestBodyImp.addBodyFromScenarioStore'"}
+{"logLevel":"debug","message":"Found Add payload from scenario store with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioStore' and 'imp.RequestBodyImp.addBodyFromScenarioStore'"}
+{"logLevel":"debug","message":"Found Add body from scenario store with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'imp.RequestBodyImp.addBodyFromScenarioStore' and 'imp.RequestBodyImp.addBodyFromScenarioStore'"}
+{"logLevel":"debug","message":"Found Senaryo kayıtlı verisinden istek body'si ekle, kayıt anahtarı {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tPost isteği gönder : public void postRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSpec deposundan {} alın ve {} ile eşit olmadığını doğrulayın : public void dataCompareNotEqualsDirectDataFromSpecStore(String key1, Object value)"}
+{"logLevel":"debug","message":"\tGet json file {} and update as {}={} then add the request : public void updateAndAdd(String fileName, String selector, String newValue) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} file and add to request with key {} as multi-part form data : public void addMultiPartFormDataToRequest(String filePath, String key)"}
+{"logLevel":"debug","message":"\tGet {} from response and store it with {} during scenario : public void getResponseElementValueForScenario(String selector, String key) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tOptions request {} : public void optionRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} from the response and then verify it is null? : public void checkDataFromResponseIsNull(String selector) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tSayı oluştur, {} ile {} arasında ve spec deposuna {} anahtarı ile kaydet : public void generateBetweenNumberStoreSpec(ınt beginNumber, ınt endNumber, String key)"}
+{"logLevel":"debug","message":"\tDelete isteği gönder {} : public void deleteRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tQuery {} sorgusu sonucundan {} sütun verisini spec deposunda sakla : public void GetQueryResultAndSaveValueWithColumnNameSpec(String columnName, String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tGenerate new phone number and store as {} during scenario : public void generatePhoneNumberScenario(String key)"}
+{"logLevel":"debug","message":"\t{} anahtarı ile saklanan body'den, {} değerini al, kayıtlı {}'in değeri ile güncelle : public void updateBodyFromScenarioData(String key, String selector, String key1)"}
+{"logLevel":"debug","message":"\tGet {} from the body then convert it to list and store it with {} during the spec : public void convertToStringStoreSpec(String jsonKey, String key)"}
+{"logLevel":"debug","message":"\tPost request {} : public void postRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tPath parametresi ekle {} = {}. : public void addPathParamsToReq(String key, String value)"}
+{"logLevel":"debug","message":"\tStore response as json with {} during suit : public void storeResponseForSuitAsJson(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tHeader ekle {} = {} : public void addHeaderToReq(String key, String value)"}
+{"logLevel":"debug","message":"\tQuery parametresi ekle {} = {}. : public void addQueryParamsToReq(String key, String value) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tPatch request : public void patchRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tResource'dan json dosyasını {} oku ve {}={} olarak güncele sonra requeste ekle  : public void updateAndAdd(String fileName, String selector, String newValue) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tPut request {} : public void putRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tKey {} ve {}'i senaryo deposundan getir ve eşit olduklarını doğrula : public void dataCompareEquals(String key1, String key2)"}
+{"logLevel":"debug","message":"\tLog {} : public void startLog(String log)"}
+{"logLevel":"debug","message":"\tFile \\\"{}\\\" dosyayı recourcedan getir ve key {} ile multi-part form data olarak ekle : public void addMultiPartFormDataToRequest(String filePath, String key)"}
+{"logLevel":"debug","message":"\tProxy ekle, {} and {} : public void addProxy(String key, ınt key1) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tReplace {} old chars to new {} chars on {} text and store it on Suit store with {} key : public void replaceAndStoreSuitData(String regex, String replacement, String text, String key)"}
+{"logLevel":"debug","message":"\tGet {} from response and then compare with {}, is it contains the value? : public void dataCompareContainsFromResponse(String selector, String value) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tHead isteği gönder {} : public void headRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSuit boyunca değişkeni sakla {} = {} : public void storeVariableDuringSuite(String key, String value)"}
+{"logLevel":"debug","message":"\tGet isteği gönder : public void getRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} from response and then check if is not null? : public void checkDataFromResponseIsNotNull(String selector) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tResponse'u String olarak {} anahtarı ile senaryo boyunca sakla. : public void storeResponseForScenario(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tStore json {}'s value from classpath with {} during spec : public void storeJsonFileValueDuringSpec(String fileName, String key)"}
+{"logLevel":"debug","message":"\tSuit deposundan {} alın ve dize olarak {} içerdiğini doğrulayın : public void dataCompareContainsDirectDataFromSuitStore(String key1, String value)"}
+{"logLevel":"debug","message":"\tGet {} from {} json list which one equals {}={}, and store it during suit with {} : public void jsonArrayFilterSuit(String requested, String json, String filter, String filterValue, String key)"}
+{"logLevel":"debug","message":"\tGenerate a number between {} and {} and end and store it in Spec store with {} key : public void generateBetweenNumberStoreSpec(ınt beginNumber, ınt endNumber, String key)"}
+{"logLevel":"debug","message":"\tAdd proxy to request with {} : public void addProxy(ınt key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tUpdate {}={} json from stored scenario with key {} : public void updateBody(String selector, String newValue, String key)"}
+{"logLevel":"debug","message":"\tAdd body as map {} : public void addBodyAsFile(Table table) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tAdd payload from suite store with {} : public void addBodyFromScenarioSuite(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tAdd form parameter {} = {} : public void addFormParamToReq(String key, String value)"}
+{"logLevel":"debug","message":"\tAdd to request {}={} as multi-part form data : public void addMultiPartFormDataToRequestAsString(String key, String value)"}
+{"logLevel":"debug","message":"\tSayı oluştur, {} basamaklı ve suit deposuna {} anahtarı ile dizi olarak kaydet : public void generateSpecificDigitNumberStoreSuit(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tAdd base path {} : public void addBasePathToReq(String url)"}
+{"logLevel":"debug","message":"\tGenerate new mail and store as {} during suit : public void generateMailSuit(String key)"}
+{"logLevel":"debug","message":"\tKullanıcı adı: {}, Şifre {} ile preemptive temel yetkilendirme yap : public void basicAuthWithPreemptive(String user, String password)"}
+{"logLevel":"debug","message":"\tAdd Bearer token {} : public void bearerAuth(String token)"}
+{"logLevel":"debug","message":"\tAdd path parameters {} : public void addPathParamsToReq(Table table)"}
+{"logLevel":"debug","message":"\tPatch request {} : public void patchRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet isteği gönder {} : public void getRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tOptions isteği gönder {} : public void optionRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} from scenario store and verify it's not equals with {} : public void dataCompareNotEqualsDirectData(String key1, Object value)"}
+{"logLevel":"debug","message":"\tGet value with {} from response and verify it isn't equal with {} : public void dataCompareNotEqualsFromResponse(String selector, Object value) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tHead request : public void headRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tMulti-part parametre olarak ekle {}={} : public void addMultiPartFormDataToRequestAsString(String key, String value)"}
+{"logLevel":"debug","message":"\tSleep for {} second : public void sleepForSecond(ınt second) throws InterruptedException"}
+{"logLevel":"debug","message":"\tAdd proxy url with host: {}, port: {}, schema: {}, username: {} and password:{} : public void addProxyWithSpecification(String host, ınt port, String scheme, String username, String password) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tTesti {} saniyeliğine durdur : public void sleepForSecond(ınt second) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSuit store'dan Bearer token ekle {} : public void bearerAuthFromSuitStore(String key)"}
+{"logLevel":"debug","message":"\tGet {} from scenario store and verify it is equal with {} : public void dataCompareEqualsDirectData(String key1, Object value)"}
+{"logLevel":"debug","message":"\tGenerate new phone number and store as {} during suit : public void generatePhoneNumberSuit(String key)"}
+{"logLevel":"debug","message":"\tPut isteği gönder {} : public void putRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tValidate response json with schema {} : public void validateJsonSchema(String schemaName) throws NullResponse"}
+{"logLevel":"debug","message":"\tResponse'u json olarak {} anahtarı ile senaryo boyunca sakla. : public void storeResponseForScenarioAsJson(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tSpec deposundan {} alın ve dize olarak {} içerdiğini doğrulayın : public void dataCompareContainsDirectDataFromSpecStore(String key1, String value)"}
+{"logLevel":"debug","message":"\tAdd Headers {} : public void addHeadersToReq(Table table)"}
+{"logLevel":"debug","message":"\tBasic auth with {} and {} : public void basic(String user, String password)"}
+{"logLevel":"debug","message":"\tGet {} list from response and then, compare list count with {}, Are they equals? : public void compareListCount(String storeKey, ınt count)"}
+{"logLevel":"debug","message":"\tAdd form parameters {} : public void addFormParamToReq(Table table)"}
+{"logLevel":"debug","message":"\tQuery parametresi ekle {} : public void addQueryParamsToReq(Table table) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSayı oluştur,en fazla {} basamaklı ve senaryo deposuna {} anahtarı ile kaydet : public void generateNumberStoreScenario(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tGet column data from query {} result and save all column data in suit store with column name : public void GetQueryResultAndSaveValueForAllColumnAndStoreSuitStore(String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tStore variable {} = {} during suite : public void storeVariableDuringSuite(String key, String value)"}
+{"logLevel":"debug","message":"\tAdd path parameter {} = {}. : public void addPathParamsToReq(String key, String value)"}
+{"logLevel":"debug","message":"\tSenaryo deposundan {} alın ve dize olarak {} içerdiğini doğrulayın : public void dataCompareContainsDirectData(String key1, String value)"}
+{"logLevel":"debug","message":"\tStore {}'s value from classpath with {} during spec : public void storeVariableDuringSpecFromFile(String key, String fileName)"}
+{"logLevel":"debug","message":"\tRespons'dan {} değerini getir ve {} anahtarı ile senaryo boyunca sakla : public void getResponseElementValueForScenario(String selector, String key) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tValidate response with  schema {} in classpath according hyper schema : public void validateJsonSchemaInClasspathAccordingHyperSchema(String schemaName) throws NullResponse"}
+{"logLevel":"debug","message":"\tGet \\\"{}\\\" file and add to request as multi-part form data : public void addMultiPartFormDataToRequest(String filePath)"}
+{"logLevel":"debug","message":"\tpayload as file {string} from resource : public void addBodyAsFile(String fileName) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} and {} from spec store and then compare, Are they not equals? : public void dataCompareNotEqualsFromSpecStore(String key1, String key2)"}
+{"logLevel":"debug","message":"\tSubstring text {} from {} index to the end then store it in Suit store with {} key : public void subStringAndStoreSuitStore(String text, ınt firstInt, String key)"}
+{"logLevel":"debug","message":"\tSOAPAction ekle {} : public void addSOAPActionToReq(String action) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tPatch isteği gönder : public void patchRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tPath parametresi ekle {} : public void addPathParamsToReq(Table table)"}
+{"logLevel":"debug","message":"\tDelete isteği gönder : public void deleteRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSenaryo boyunca {} içeriğini {} anahtarı ile sakla : public void storeVariableDuringScenarioFromFile(String fileName, String key)"}
+{"logLevel":"debug","message":"\tKullanıcı adı: {}, Şifre {} ile temel yetkilendirme yap : public void basic(String user, String password)"}
+{"logLevel":"debug","message":"\tAdd as a header {} = {} : public void addHeaderToReq(String key, String value)"}
+{"logLevel":"debug","message":"\tSleep for {} milliSecond : public void sleepForMillisecond(long millisecond) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSenaryo deposundan {} alın ve değer:{} ile eşit olduğunu doğrulayın : public void dataCompareEqualsDirectData(String key1, Object value)"}
+{"logLevel":"debug","message":"\tResponse'u json olarak {} anahtarı ile suit boyunca sakla. : public void storeResponseForSuitAsJson(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tCheck if status code is {} : public void checkStatusCodeFromRes(Integer key) throws NullResponse"}
+{"logLevel":"debug","message":"\tYeni bir api isteği tanımla : public void defineNewApiRequest()"}
+{"logLevel":"debug","message":"\tGet {} from the body then convert it to list and store it with {} during the scenario : public void convertToString(String jsonKey, String key)"}
+{"logLevel":"debug","message":"\tProxy ekle, {} : public void addProxy(ınt key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\t{} anahtarı ile saklanan datalardan değeri al path parametresi olarak ekle. : public void addPathParaFromStore(String key)"}
+{"logLevel":"debug","message":"\tGet {} from scenario store and check if it is contains {} as string : public void dataCompareContainsDirectData(String key1, String value)"}
+{"logLevel":"debug","message":"\tBasic auth with {} and {} as preemptive : public void basicAuthWithPreemptive(String user, String password)"}
+{"logLevel":"debug","message":"\tTesti {} milli saniyeliğine durdur : public void sleepForMillisecond(long millisecond) throws InterruptedException"}
+{"logLevel":"debug","message":"\tAdd query parameter from store with {} : public void addQueryParamsfromStore(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tTabloyu map objesi olarak {} anahtarı ile senaryo boyunca sakla {} : public void storeTable(String key, Table table)"}
+{"logLevel":"debug","message":"\tValidate json {} from the suit stored data with schema {} in classpath : public void validateJsonSchemaInClasspathWithSuitData(String jsonStoreKey, String schemaName)"}
+{"logLevel":"debug","message":"\tAdd body from spec store with {} : public void addBodyFromScenarioSpec(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSpec boyunca {} içeriğini {} : public void storeVariableDuringSpecFromFile(String key, String fileName)"}
+{"logLevel":"debug","message":"\tAdd proxy to request with {} and {} : public void addProxy(String key, ınt key1) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} from spec store and then compare with {}, Are they equals? : public void dataCompareEqualsDirectDataFromSpecStore(String key1, Object value)"}
+{"logLevel":"debug","message":"\tAdd query parameter {} = {}. : public void addQueryParamsToReq(String key, String value) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSelector {} ile responsdand eğer getir ve null olduğunu doğrula  : public void checkDataFromResponseIsNull(String selector) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tGet {} from suit store and verify it's not equals with {} : public void dataCompareNotEqualsDirectDataFromSuitStore(String key1, Object value)"}
+{"logLevel":"debug","message":"\tGet {} from response and store it with {} during spec : public void getResponseElementValueForSpec(String selector, String key) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tGet {} and {} from scenario store and then compare, Are they equals? : public void dataCompareEquals(String key1, String key2)"}
+{"logLevel":"debug","message":"\tAdd query parameter {} : public void addQueryParamsToReq(Table table) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} from response and then check if is null? : public void checkDataFromResponseIsNull(String selector) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tVerify that the status code is {} : public void checkStatusCodeFromRes(Integer key) throws NullResponse"}
+{"logLevel":"debug","message":"\tDelete request : public void deleteRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tKey {} ve {}'i senaryo deposundan getir ve eşit olmadıklarını doğrula : public void dataCompareNotEquals(String key1, String key2)"}
+{"logLevel":"debug","message":"\tProxy ekle, {}  : public void addProxyWithUri(String url) throws URISyntaxException, RequestNotDefined"}
+{"logLevel":"debug","message":"\tPath parametresi ekle {} = {} : public void addPathParamsToReq(String key, Object value)"}
+{"logLevel":"debug","message":"\tSayı oluştur, {} ile {} arasında ve senaryo deposuna {} anahtarı ile kaydet : public void generateBetweenNumberStoreScenario(ınt beginNumber, ınt endNumber, String key)"}
+{"logLevel":"debug","message":"\tHead request {} : public void headRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet column {} data from query {} result and save in spec store : public void GetQueryResultAndSaveValueWithColumnNameSpec(String columnName, String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tAdd log filter with errorStatus {} : public void addFilter(Table table)"}
+{"logLevel":"debug","message":"\tGet {} from the body then convert it to list and store it with {} during the suit : public void convertToStringStoreSuit(String jsonKey, String key)"}
+{"logLevel":"debug","message":"\tGet {} from spec store then compare with {}, Are they not equals? : public void dataCompareNotEqualsDirectDataFromSpecStore(String key1, Object value)"}
+{"logLevel":"debug","message":"\tGet request {} : public void getRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} from spec store and verify it is contains {} as string : public void dataCompareContainsDirectDataFromSpecStore(String key1, String value)"}
+{"logLevel":"debug","message":"\tStore response as string with {} during suite : public void storeResponseForSuite(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tRemove {} from store : public void removeFromStore(String key)"}
+{"logLevel":"debug","message":"\tDeğer {}'in değer2 {}'i içerdiğini doğrula : public void dataCompareContains(String value1, String value2)"}
+{"logLevel":"debug","message":"\tSenaryo kayıtlı verisinden istek body'si ekle, kayıt anahtarı {} : public void addBodyFromScenarioStore(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} from suit store and check if it is contains {} as string : public void dataCompareContainsDirectDataFromSuitStore(String key1, String value)"}
+{"logLevel":"debug","message":"\tAdd proxy to request with {}, {} {} : public void addProxy(String key, ınt key1, String key2) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGenerate a {} digit number and store it in Spec store with {} key as string type : public void generateSpecificDigitNumberStoreSpec(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tQuery {} sorgusu sonucundan dönen tüm datayı kolon isimleriyle birlikte spec deposunda sakla : public void GetQueryResultAndSaveValueForAllColumnAndStoreSpecStore(String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tStore table as map during scenario with {} {} : public void storeTable(String key, Table table)"}
+{"logLevel":"debug","message":"\tGet {} and {} from scenario store and then compare, Are they not equals? : public void dataCompareNotEquals(String key1, String key2)"}
+{"logLevel":"debug","message":"\tGet column data from query {} result and save all column data in scenario store with column name : public void GetQueryResultAndSaveValueForAllColumnAndStoreScenarioStore(String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tSuite boyunca {} içeriğini {} : public void storeVariableDuringSuiteFromFile(String key, String fileName)"}
+{"logLevel":"debug","message":"\tReplace {} old chars to new {} chars on {} text but only first and store it on Suit store with {} key : public void replaceAndStoreSuitDataOnlyFirst(String regex, String replacement, String text, String key)"}
+{"logLevel":"debug","message":"\tAdd Bearer token from suit store {} : public void bearerAuthFromSuitStore(String key)"}
+{"logLevel":"debug","message":"\tGet {} and {} from the spec store and verify they aren't equal : public void dataCompareNotEqualsFromSpecStore(String key1, String key2)"}
+{"logLevel":"debug","message":"\tSayı oluştur, {} basamaklı ve spec deposuna {} anahtarı ile dizi olarak kaydet : public void generateSpecificDigitNumberStoreSpec(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tAdd Bearer token from spec store {} : public void bearerAuthFromSpecStore(String key)"}
+{"logLevel":"debug","message":"\tHead isteği gönder : public void headRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tAdd Bearer token from scenario store {} : public void bearerAuthFromScenarioStore(String key)"}
+{"logLevel":"debug","message":"\tGet {} and {} from the scenario store and verify they are equal : public void dataCompareEquals(String key1, String key2)"}
+{"logLevel":"debug","message":"\tBu statü kodları için log filtresi ekle {} : public void addFilter(Table table)"}
+{"logLevel":"debug","message":"\tQuery parametresi ekle {} = {} : public void addQueryParamsToReq(String key, Object value) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tAdd payload from store with key {} : public void addBodyFromStore(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tRespons'dan {} değerini getir ve {} anahtarı ile suite boyunca sakla : public void getResponseElementValueForSuite(String selector, String key) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tValidate json {} from the scenario stored data with schema {} in classpath : public void validateJsonSchemaInClasspathWithScenarioData(String jsonStoreKey, String schemaName)"}
+{"logLevel":"debug","message":"\tAdd SOAPAction {} : public void addSOAPActionToReq(String action) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tPatch isteği gönder {} : public void patchRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSpec store'dan Bearer token ekle {} : public void bearerAuthFromSpecStore(String key)"}
+{"logLevel":"debug","message":"\tAdd multi-part data as content-type to header with default boundary {} : public void addMultipleDataContentTypeAsHeader(String boundary)"}
+{"logLevel":"debug","message":"\tGet {} from {} json list which one equals {}={}, and store it during Spec with {} : public void jsonArrayFilterSpec(String requested, String json, String filter, String filterValue, String key)"}
+{"logLevel":"debug","message":"\tGet {} and {} from the secnario store and verify they aren't equal : public void dataCompareNotEquals(String key1, String key2)"}
+{"logLevel":"debug","message":"\tOptions request : public void optionRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tFile \"{}\" dosyayı recourcedan getir ve multi-part form data olarak ekle : null"}
+{"logLevel":"debug","message":"\tFile \\\"{}\\\" dosyayı recourcedan getir ve multi-part form data olarak ekle : public void addMultiPartFormDataToRequest(String filePath)"}
+{"logLevel":"debug","message":"\tResponse'u String olarak {} anahtarı ile suite boyunca sakla. : public void storeResponseForSuite(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tPost request : public void postRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tValidate stored json {} response with stored schema {} from scenario data store : public void validateJsonSchema(String jsonStoreKey, String schemaStoreKey)"}
+{"logLevel":"debug","message":"\tGet {} from the response and then verify it is not null? : public void checkDataFromResponseIsNotNull(String selector) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tSayı oluştur,en fazla {} basamaklı ve spec deposuna {} anahtarı ile kaydet : public void generateNumberStoreSpec(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tBearer token ekle {} : public void bearerAuth(String token)"}
+{"logLevel":"debug","message":"\tGet column {} data from query {} result and save in suit store : public void GetQueryResultAndSaveValueWithColumnNameSuit(String columnName, String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tMulti-part verileri, ekleyin header varsayılan boundary {} ile : public void addMultipleDataContentTypeAsHeader(String boundary)"}
+{"logLevel":"debug","message":"\tGet {} from spec store and verify it's not equals with {} : public void dataCompareNotEqualsDirectDataFromSpecStore(String key1, Object value)"}
+{"logLevel":"debug","message":"\tSubstring text {} from {} index to {} index then store it in Spec store with {} key : public void subStringAndStoreSpecStore(String text, ınt firstInt, ınt lastInt, String key)"}
+{"logLevel":"debug","message":"\tResponse zamanını getir ve karşılaştır, {} saniyeden düşük mü?' : public void checkResponseTimeAsSeconds(Integer seconds) throws NullResponse"}
+{"logLevel":"debug","message":"\tPut request : public void putRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tDosya tipinde istek body'si ekle {} : public void addBodyAsFile(String fileName) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tAdd payload as file from resource {} : public void addBodyAsFile(String fileName) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSpec kayıtlı verisinden istek body'si ekle, kayıt anahtarı {} : public void addBodyFromScenarioSpec(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tPost isteği gönder {} : public void postRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGenerate a max {} digit number and store it in Spec store as {} key : public void generateNumberStoreSpec(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tRespons'dan {} değerini getir ve {} anahtarı ile spec boyunca sakla : public void getResponseElementValueForSpec(String selector, String key) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tQuery {} sorgusu sonucundan {} sütun verisini scenario deposunda sakla : public void GetQueryResultAndSaveValueWithColumnName(String columnName, String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tGet response time as milliseconds and compare it, is it less then {}? : public void checkResponseTimeAsMillis(Integer milliSeconds) throws NullResponse"}
+{"logLevel":"debug","message":"\tReplace {} old chars to new {} chars on {} text but only first and store it on Scenario store with {} key : public void replaceAndStoreScenarioDataOnlyFirst(String regex, String replacement, String text, String key)"}
+{"logLevel":"debug","message":"\tGenerate new phone number and store as {} during spec : public void generatePhoneNumberSpec(String key)"}
+{"logLevel":"debug","message":"\tAdd form parameters {} = {} : public void addFormParamsToReq(String key, Object value)"}
+{"logLevel":"debug","message":"\tPut isteği gönder : public void putRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tResponse'u json olarak {} anahtarı ile spec boyunca sakla. : public void storeResponseForSpecAsJson(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tStore variable {} = {} during scenario : public void storeVariableDuringScenario(String key, String value)"}
+{"logLevel":"debug","message":"\tAdd query parameter {} = {} : public void addQueryParamsToReq(String key, Object value) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tStore response as json with {} during spec : public void storeResponseForSpecAsJson(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tCheck if {} is contains {} as string : public void dataCompareContains(String value1, String value2)"}
+{"logLevel":"debug","message":"\tSubstring text {} from {} index to the end then store it in Scenario store with {} key : public void subStringAndStoreScenarioStore(String text, ınt firstInt, String key)"}
+{"logLevel":"debug","message":"\tAdd body from suite store with {} : public void addBodyFromScenarioSuite(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tStore response as json with {} during scenario : public void storeResponseForScenarioAsJson(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tVarsayılan https sertifkası ekleyin : public void addRelaxedHTTPSValidationToRequest()"}
+{"logLevel":"debug","message":"\tProxy ekle {}, {} {} : public void addProxy(String key, ınt key1, String key2) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} from scenario store and then compare with {}, Are they equals? : public void dataCompareEqualsDirectData(String key1, Object value)"}
+{"logLevel":"debug","message":"\tVerify {} is contains {} as string : public void dataCompareContains(String value1, String value2)"}
+{"logLevel":"debug","message":"\tGet response time as seconds and compare it, is it less then {}? : public void checkResponseTimeAsSeconds(Integer seconds) throws NullResponse"}
+{"logLevel":"debug","message":"\tAdd base url {} : public void addBaseUrlToReq(String url)"}
+{"logLevel":"debug","message":"\tQuery {} sorgusu sonucundan dönen tüm datayı kolon isimleriyle birlikte senaryo deposunda sakla : public void GetQueryResultAndSaveValueForAllColumnAndStoreScenarioStore(String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tGet body {} and update {}={} in json then store it during the scenario with {} : public void updateBodyFromScenarioData(String key, String selector, String newValue, String key1)"}
+{"logLevel":"debug","message":"\tGet value with {} from response and verify it is equal with {} : public void dataCompareEqualsFromResponse(String selector, Object value) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tSuit kayıtlı verisinden istek body'si ekle, kayıt anahtarı {} : public void addBodyFromScenarioSuite(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet {} from response and then compare with {}, Are they equals? : public void dataCompareEqualsFromResponse(String selector, Object value) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tValidate json {} from the spec stored data with schema {} in classpath : public void validateJsonSchemaInClasspathWithSpecData(String jsonStoreKey, String schemaName)"}
+{"logLevel":"debug","message":"\tForm parametrelerini ekleyin {} = {} : public void addFormParamsToReq(String key, Object value)"}
+{"logLevel":"debug","message":"\tSet contentType is JSON : public void setContentTypeJsonImp()"}
+{"logLevel":"debug","message":"\tAdd body from scenario store with {} : public void addBodyFromScenarioStore(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSenaryo boyunca json {} içeriğini {} anahtarı ile sakla : public void storeJsonFileValueDuringScenario(String fileName, String key)"}
+{"logLevel":"debug","message":"\tStore json {}'s value from classpath with {} during suit : public void storeJsonFileValueDuringSuit(String fileName, String key)"}
+{"logLevel":"debug","message":"\tGet {} from suit store and verify it is contains {} as string : public void dataCompareContainsDirectDataFromSuitStore(String key1, String value)"}
+{"logLevel":"debug","message":"\tGenerate a number between {} and {} and end and store it in Suit store with {} key : public void generateBetweenNumberStoreSuit(ınt beginNumber, ınt endNumber, String key)"}
+{"logLevel":"debug","message":"\tYanıttan {} ile değer alın ve {} ile eşit olmadığını doğrulayın : public void dataCompareNotEqualsFromResponse(String selector, Object value) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tAdd payload from spec store with {} : public void addBodyFromScenarioSpec(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tStore json {}'s value from classpath with {} during scenario : public void storeJsonFileValueDuringScenario(String fileName, String key)"}
+{"logLevel":"debug","message":"\tKayıtlı parametreyi logla {} : public void logThisParam(String key)"}
+{"logLevel":"debug","message":"\tGet {} and {} from suit store and then compare, Are they not equals? : public void dataCompareNotEqualsFromSuitStore(String key1, String key2)"}
+{"logLevel":"debug","message":"\tGenerate a number between {} and {} and end and store it in Scenario store with {} key : public void generateBetweenNumberStoreScenario(ınt beginNumber, ınt endNumber, String key)"}
+{"logLevel":"debug","message":"\tReplace {} old chars to new {} chars on {} text and store it on Spec store with {} key : public void replaceAndStoreSpecData(String regex, String replacement, String text, String key)"}
+{"logLevel":"debug","message":"\tResponsu resource da tanımlanan şema {} ile dorğulayın : public void validateJsonSchema(String schemaName) throws NullResponse"}
+{"logLevel":"debug","message":"\tReplace {} old chars to new {} chars on {} text but only first and store it on Spec store with {} key : public void replaceAndStoreSpecDataOnlyFirst(String regex, String replacement, String text, String key)"}
+{"logLevel":"debug","message":"\tKey {} ve {}'i spec deposundan getir ve eşit olmadıklarını doğrula : public void dataCompareNotEqualsFromSpecStore(String key1, String key2)"}
+{"logLevel":"debug","message":"\tGenerate a {} digit number and store it in Suit store with {} key as string type : public void generateSpecificDigitNumberStoreSuit(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tAdd payload from scenario store with {} : public void addBodyFromScenarioStore(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tQuery {} sorgusu sonucundan {} sütun verisini suit deposunda sakla : public void GetQueryResultAndSaveValueWithColumnNameSuit(String columnName, String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tLog this param {} : public void logThisParam(String key)"}
+{"logLevel":"debug","message":"\tGet {} from response and then compare with {}, Are they not equals? : public void dataCompareNotEqualsFromResponse(String selector, Object value) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tGet request : public void getRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tStatü kodunu kontrol et {} mü? : public void checkStatusCodeFromRes(Integer key) throws NullResponse"}
+{"logLevel":"debug","message":"\t{} anahtarı ile saklanan datalardan değeri al query parametresi olarak ekle. : public void addQueryParamsfromStore(String key) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tUrl ekle {} : public void addBaseUrlToReq(String url)"}
+{"logLevel":"debug","message":"\tOptions isteği gönder : public void optionRequests() throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSubstring text {} from {} index to the end then store it in Spec store with {} key : public void subStringAndStoreSpecStore(String text, ınt firstInt, String key)"}
+{"logLevel":"debug","message":"\tStore variable {} = {} during spec : public void storeVariableDuringSpec(String key, String value)"}
+{"logLevel":"debug","message":"\tSpec boyunca json {} içeriğini {} anahtarı ile sakla : public void storeJsonFileValueDuringSpec(String fileName, String key)"}
+{"logLevel":"debug","message":"\tGet {} from suit store then compare with {}, Are they not equals? : public void dataCompareNotEqualsDirectDataFromSuitStore(String key1, Object value)"}
+{"logLevel":"debug","message":"\tGet {} from scenario store then compare with {}, Are they not equals? : public void dataCompareNotEqualsDirectData(String key1, Object value)"}
+{"logLevel":"debug","message":"\tAdd relaxed HTTPS validation : public void addRelaxedHTTPSValidationToRequest()"}
+{"logLevel":"debug","message":"\tGet \"{}\" file and add to request as multi-part form data : null"}
+{"logLevel":"debug","message":"\tAdd path parameter from store with {} : public void addPathParaFromStore(String key)"}
+{"logLevel":"debug","message":"\tResponse zamanını getir ve karşılaştır, {} milisaniyeden düşük mü?' : public void checkResponseTimeAsMillis(Integer milliSeconds) throws NullResponse"}
+{"logLevel":"debug","message":"\tGet {} from spec store and verify it is equal with {} : public void dataCompareEqualsDirectDataFromSpecStore(String key1, Object value)"}
+{"logLevel":"debug","message":"\tProxy ekle, host: {}, port: {}, schema: {}, username: {} and password:{} : public void addProxyWithSpecification(String host, ınt port, String scheme, String username, String password) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSenaryo deposundan {} alın ve {} ile eşit olmadığını doğrulayın : public void dataCompareNotEqualsDirectData(String key1, Object value)"}
+{"logLevel":"debug","message":"\tGenerate a max {} digit number and store it in Scenario store as {} key : public void generateNumberStoreScenario(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tGenerate new mail address and store as {} during scenario : public void generateMailScenario(String key)"}
+{"logLevel":"debug","message":"\tAdd path parameter {} = {} : public void addPathParamsToReq(String key, Object value)"}
+{"logLevel":"debug","message":"\tValidate response with  schema {} in classpath according draft3 : public void validateJsonSchemaInClasspathAccordingDraft3(String schemaName) throws NullResponse"}
+{"logLevel":"debug","message":"\tValidate response with  schema {} in classpath according draft4 : public void validateJsonSchemaInClasspathAccordingDraft4(String schemaName) throws NullResponse"}
+{"logLevel":"debug","message":"\tKey {} ve {}'i suit deposundan getir ve eşit olmadıklarını doğrula : public void dataCompareNotEqualsFromSuitStore(String key1, String key2)"}
+{"logLevel":"debug","message":"\tAdd endpoint {} : public void addBasePathToReq(String url)"}
+{"logLevel":"debug","message":"\tYanıttan {} ile değer alın ve {} ile eşit olduğunu doğrulayın : public void dataCompareEqualsFromResponse(String selector, Object value) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tSayı oluştur,en fazla {} basamaklı ve suit deposuna {} anahtarı ile kaydet : public void generateNumberStoreSuit(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tFile \"{}\" dosyayı recourcedan getir ve key {} ile multi-part form data olarak ekle : null"}
+{"logLevel":"debug","message":"\tSpec boyunca değişkeni sakla {} = {} : public void storeVariableDuringSpec(String key, String value)"}
+{"logLevel":"debug","message":"\tReplace {} old chars to new {} chars on {} text and store it on Scenario store with {} key : public void replaceAndStoreScenarioData(String regex, String replacement, String text, String key)"}
+{"logLevel":"debug","message":"\tGet {} from spec store and check if it is contains {} as string : public void dataCompareContainsDirectDataFromSpecStore(String key1, String value)"}
+{"logLevel":"debug","message":"\tEndpoint ekle {} : public void addBasePathToReq(String url)"}
+{"logLevel":"debug","message":"\tStore {}'s value from classpath with {} during scenario : public void storeVariableDuringScenarioFromFile(String fileName, String key)"}
+{"logLevel":"debug","message":"\tGet {} from scenario store and verify it is contains {} as string : public void dataCompareContainsDirectData(String key1, String value)"}
+{"logLevel":"debug","message":"\tAdd body as file from resource {} : public void addBodyAsFile(String fileName) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tSuit deposundan {} alın ve {} ile eşit olmadığını doğrulayın : public void dataCompareNotEqualsDirectDataFromSuitStore(String key1, Object value)"}
+{"logLevel":"debug","message":"\tLogla {} : public void startLog(String log)"}
+{"logLevel":"debug","message":"\tForm parametresi ekle {} = {} : public void addFormParamToReq(String key, String value)"}
+{"logLevel":"debug","message":"\tSpec deposundan {} alın ve değer:{} ile eşit olduğunu doğrulayın : public void dataCompareEqualsDirectDataFromSpecStore(String key1, Object value)"}
+{"logLevel":"debug","message":"\tStore {}'s value from classpath with {} during suite : public void storeVariableDuringSuiteFromFile(String key, String fileName)"}
+{"logLevel":"debug","message":"\tSayı oluştur, {} ile {} arasında ve suit deposuna {} anahtarı ile kaydet : public void generateBetweenNumberStoreSuit(ınt beginNumber, ınt endNumber, String key)"}
+{"logLevel":"debug","message":"\tValidate response json with schema {} which is in from class path : public void validateJsonSchema(String schemaName) throws NullResponse"}
+{"logLevel":"debug","message":"\tResponse'u String olarak {} anahtarı ile spec boyunca sakla. : public void storeResponseForSpece(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tGet {} from response and store it with {} during suite : public void getResponseElementValueForSuite(String selector, String key) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tSubstring text {} from {} index to {} index then store it in Scenario store with {} key : public void subStringAndStoreScenarioStore(String text, ınt firstInt, ınt lastInt, String key)"}
+{"logLevel":"debug","message":"\tStore response as string with {} during scenario : public void storeResponseForScenario(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tSuit boyunca json {} içeriğini {} anahtarı ile sakla : public void storeJsonFileValueDuringSuit(String fileName, String key)"}
+{"logLevel":"debug","message":"\tGenerate a max {} digit number and store it in Suit store as {} key : public void generateNumberStoreSuit(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tAdd payload as map {} : public void addBodyAsFile(Table table) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tDefine new request : public void defineNewApiRequest()"}
+{"logLevel":"debug","message":"\tSayı oluştur, {} basamaklı ve senaryo deposuna {} anahtarı ile dizi olarak kaydet : public void generateSpecificDigitNumberStoreScenario(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tGet {} and {} from the suit store and verify they aren't equal : public void dataCompareNotEqualsFromSuitStore(String key1, String key2)"}
+{"logLevel":"debug","message":"\tHeader Ekle {} : public void addHeadersToReq(Table table)"}
+{"logLevel":"debug","message":"\tSenaryo store'dan Bearer token ekle {} : public void bearerAuthFromScenarioStore(String key)"}
+{"logLevel":"debug","message":"\tGet body with {} from store and update {} as {} from scenario data : public void updateBodyFromScenarioData(String key, String selector, String key1)"}
+{"logLevel":"debug","message":"\tSenaryo boyunca değişkeni sakla {} = {} : public void storeVariableDuringScenario(String key, String value)"}
+{"logLevel":"debug","message":"\tSelector {} ile responsdand eğer getir ve null olmadığını doğrula : public void checkDataFromResponseIsNotNull(String selector) throws NullResponse, NullValue"}
+{"logLevel":"debug","message":"\tGenerate a {} digit number and store it in Scenario store with {} key as string type : public void generateSpecificDigitNumberStoreScenario(ınt digit, String key)"}
+{"logLevel":"debug","message":"\tDelete request {} : public void deleteRequests(String url) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tTablodan istek body'si ekle {} : public void addBodyAsFile(Table table) throws RequestNotDefined"}
+{"logLevel":"debug","message":"\tGet column {} data from query {} result and save in scenario store : public void GetQueryResultAndSaveValueWithColumnName(String columnName, String queryName) throws SQLException, ClassNotFoundException, IOException"}
+{"logLevel":"debug","message":"\tGet {} from {} json list which one equals {}={}, and store it during Scenario with {} : public void jsonArrayFilter(String requested, String json, String filter, String filterValue, String key)"}
+{"logLevel":"debug","message":"\tForm parametrelerini ekle {} : public void addFormParamToReq(Table table)"}
+{"logLevel":"debug","message":"\tStore response as string with {} during spec : public void storeResponseForSpece(String key) throws NullResponse"}
+{"logLevel":"debug","message":"\tSubstring text {} from {} index to {} index then store it in Suit store with {} key : public void subStringAndStoreSuitStore(String text, ınt firstInt, ınt lastInt, String key)"}
+{"logLevel":"debug","message":"\tGet column data from query {} result and save all column data in spec store with column name : public void GetQueryResultAndSaveValueForAllColumnAndStoreSpecStore(String queryName) throws SQLException, ClassNotFoundException, IOException"}
+[INFO ] 2022-11-27 23:17:07.859 Configuration:63 - Properties read finished.
+{"logLevel":"debug","message":"Executing 'Add base url {}' using 'class imp.UrlImp.addBaseUrlToReq"}
+[INFO ] 2022-11-27 23:17:08.700 RequestUrlHelper:18 - https://petstore.swagger.io added as a base url
+{"logLevel":"debug","message":"Executing 'Add endpoint {}' using 'class imp.UrlImp.addBasePathToReq"}
+[INFO ] 2022-11-27 23:17:08.714 RequestUrlHelper:23 - /v2/pet added as a base path
+{"logLevel":"debug","message":"Executing 'Add as a header {} = {}' using 'class imp.HeaderImp.addHeaderToReq"}
+[INFO ] 2022-11-27 23:17:08.811 HeaderHelper:47 - content-type, application/json header added
+{"logLevel":"debug","message":"Executing 'Add payload as file from resource {}' using 'class imp.RequestBodyImp.addBodyAsFile"}
+[INFO ] 2022-11-27 23:17:08.823 RequestBodyHelper:68 - Body added to request 
+ Body detail: C:\Users\Pc\Desktop\gaugeAPIFramework\gaugeAPIFramework\target\test-classes\payloads\addPost.json
+{"logLevel":"debug","message":"Executing 'Add log filter with errorStatus {}' using 'class imp.LogImp.addFilter"}
+[INFO ] 2022-11-27 23:17:08.841 FilterHelper:24 - Status added to log filter 200, 405, 415
+{"logLevel":"debug","message":"Executing 'Post request' using 'class imp.methods.PostRequestImp.postRequests"}
+[ERROR] 2022-11-27 23:17:10.727 RestAssuredFilter:113 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.727 RestAssuredFilter:114 - Methods:
+[ERROR] 2022-11-27 23:17:10.727 RestAssuredFilter:115 - POST
+[ERROR] 2022-11-27 23:17:10.728 RestAssuredFilter:117 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.728 RestAssuredFilter:118 - URI:
+[ERROR] 2022-11-27 23:17:10.730 RestAssuredFilter:119 - https://petstore.swagger.io/v2/pet
+[ERROR] 2022-11-27 23:17:10.731 RestAssuredFilter:121 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.731 RestAssuredFilter:122 - Request Headers:
+[ERROR] 2022-11-27 23:17:10.733 RestAssuredFilter:123 - Accept=*/*
+Content-Type=application/json; charset=UTF-8
+[ERROR] 2022-11-27 23:17:10.779 RestAssuredFilter:137 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.779 RestAssuredFilter:138 - Request Body
+[ERROR] 2022-11-27 23:17:10.780 RestAssuredFilter:139 - {
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[ERROR] 2022-11-27 23:17:10.780 RestAssuredFilter:143 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.780 RestAssuredFilter:144 - Response Status Code
+[ERROR] 2022-11-27 23:17:10.781 RestAssuredFilter:145 - 200
+[ERROR] 2022-11-27 23:17:10.781 RestAssuredFilter:147 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.782 RestAssuredFilter:148 - Response Headers:
+[ERROR] 2022-11-27 23:17:10.782 RestAssuredFilter:149 - Date=Sun, 27 Nov 2022 20:17:10 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+[ERROR] 2022-11-27 23:17:10.784 RestAssuredFilter:157 - -------------------------------
+[ERROR] 2022-11-27 23:17:10.792 RestAssuredFilter:158 - {
+  "id": 9223372036854289572,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "mert"
+    }
+  ],
+  "status": "available"
+}
+[INFO ] 2022-11-27 23:17:10.805 PostHelper:44 - Post request sent
+{"logLevel":"debug","message":"Executing 'Check if status code is {}' using 'class imp.StatusCodeImp.checkStatusCodeFromRes"}
+[INFO ] 2022-11-27 23:17:10.835 StatusCodeHelper:27 - Status code is 200
+{"logLevel":"debug","message":"Executing 'Get value with {} from response and verify it is equal with {}' using 'class imp.CompareImp.dataCompareEqualsFromResponse"}
+[WARN ] 2022-11-27 23:17:12.014 SlackHelper:90 - Slack message couldn't send, please check your webhook is active?
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
